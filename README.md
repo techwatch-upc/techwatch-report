@@ -186,6 +186,27 @@ Frente a esta problemática, TechWatch desarrolla una plataforma web orientada a
 
 ### 1.2.1. Antecedentes y problemática
 
+**Who (¿Quién?) - ¿A quiénes afecta el problema?**
+Propietarios y arrendatarios de casas y departamentos que cuentan o desean contar con dispositivos inteligentes en su hogar.
+
+**What (¿Qué?) - ¿Cuál es el problema exactamente?**
+La ausencia de una plataforma centralizada que permita visualizar, monitorear y analizar el comportamiento de los dispositivos domésticos de forma unificada. Los usuarios no tienen acceso a métricas claras sobre el consumo y uso de sus dispositivos, lo que les impide tomar decisiones informadas para optimizar su hogar.
+
+**Where (¿Dónde?) - ¿En qué contexto ocurre?**
+En el entorno doméstico residencial, con foco inicial en el mercado peruano y con proyección hacia el resto de Latinoamérica.
+
+**When (¿Cuándo?) - ¿En qué momento se manifiesta el problema?**
+De forma cotidiana y constante, cada vez que el usuario interactúa con su hogar o quiere comprender cómo se están comportando sus sistemas domésticos.
+
+**Why (¿Por qué?) - ¿Por qué ocurre el problema?**
+Las soluciones existentes en el mercado son costosas, técnicamente complejas o fragmentadas, lo que limita su accesibilidad a un segmento reducido de usuarios con alto poder adquisitivo o conocimiento técnico avanzado.
+
+**How (¿Cómo?) - ¿Cómo impacta en el usuario?**
+Esta falta de visibilidad genera que los usuarios no puedan optimizar su consumo energético, detectar patrones de uso ineficiente ni gestionar de forma inteligente los recursos de su hogar, afectando tanto su economía como su calidad de vida. 
+
+**How Much (¿Cuánto?) - ¿Qué tan grande es el problema?**
+El mercado de Smart Home en Latinoamérica alcanzará los USD 3.44 mil millones en 2025 y se proyecta que crecerá a un CAGR del 11% hasta alcanzar USD 5.80 mil millones en 2030. A pesar de este crecimiento, el alto costo inicial de los dispositivos y servicios de instalación sigue siendo una barrera significativa, limitando la adopción masiva fuera de los segmentos urbanos de mayor ingreso. Esto evidencia una oportunidad concreta para soluciones accesibles orientadas al monitoreo y análisis del hogar inteligente. 
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
