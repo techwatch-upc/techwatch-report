@@ -496,6 +496,8 @@ El siguiente glosario reúne los términos y conceptos clave del dominio de nego
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
+
+### 4.1.1. General Style Guidelines
 El diseño visual de TechWatch se basa en un enfoque moderno, minimalista y orientado a productos digitales tipo SaaS (Software as a Service), priorizando la claridad de la información, la jerarquía visual y la experiencia del usuario.
 
 Se adopta una estética limpia que facilita la visualización de métricas e insights relacionados al comportamiento de dispositivos inteligentes dentro del hogar.
@@ -518,11 +520,18 @@ Se utilizará la fuente *sans-serif “Inter”*, debido a su alta legibilidad e
 * Bordes redondeados en componentes (8px – 16px)
 * Jerarquía tipográfica clara (títulos, subtítulos, contenido)
 * Enfoque en la visualización de datos
-
-### 4.1.1. General Style Guidelines
-
 ### 4.1.2. Web Style Guidelines
+Las interfaces web de TechWatch seguirán lineamientos consistentes orientados a la usabilidad y accesibilidad.
 
+**Componentes principales:**
+
+* Botones: Colores sólidos con contraste alto y estados hover.
+* Tarjetas (Cards): Contenedores con fondo oscuro y bordes redondeados para agrupar información.
+* Inputs: Estilo minimalista con bordes suaves y enfoque en legibilidad.
+* Dashboards: Uso de gráficos claros, con énfasis en tendencias y métricas clave.
+
+**Responsive Design:**
+El sistema será diseñado bajo un enfoque mobile-first, adaptándose a diferentes resoluciones, considerando la alta penetración del uso de smartphones en el contexto peruano.
 ## 4.2. Information Architecture
 
 ### 4.2.1. Organization Systems
