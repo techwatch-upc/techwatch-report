@@ -535,6 +535,10 @@ El siguiente glosario reúne los términos y conceptos clave del dominio de nego
 
 ### 4.6.1. Design-Level Event Storming
 
+En esta sección se presenta el resultado del Design-Level Event Storming realizado como continuación del Big Picture Event Storming previamente elaborado. El objetivo fue profundizar en los flujos más relevantes del dominio de TechWatch, identificando para cada proceso los Commands, Read Models, Policies y Aggregates que permiten modelar el comportamiento del sistema con mayor detalle. La sesión se organizó en torno a cuatro Bounded Contexts identificados: Device Management, Simulation, Analytics y Subscriptions. A partir de este ejercicio se establecieron las bases para la definición de la arquitectura de software, incluyendo los diagramas de contexto, contenedores y componentes que se presentan en las secciones siguientes.
+
+![Design-Level Event Storming](/assets/images/design-level-event-storming.png)
+
 ### 4.6.2. Software Architecture Context Diagram
 
 ### 4.6.3. Software Architecture Container Diagrams
