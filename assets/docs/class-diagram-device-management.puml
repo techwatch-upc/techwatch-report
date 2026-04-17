@@ -1,0 +1,124 @@
+@startuml DeviceManagement
+
+skinparam classAttributeIconSize 0
+skinparam monochrome false
+skinparam shadowing false
+
+' Enumerations
+enum DeviceType <<Enum>> {
+    LIGHT
+    THERMOSTAT
+    CAMERA
+    SMART_PLUG
+    AIR_CONDITIONER
+    DOOR_LOCK
+}
+
+enum DeviceStatus <<Enum>> {
+    ACTIVE
+    INACTIVE
+}
+
+' Entities
+class Property <<Aggregate Root>> <<Entity>> {
+    - id: Long
+    - name: String
+    - address: String
+    - propertyType: String
+    - userId: Long
+    - createdAt: LocalDateTime
+    - updatedAt: LocalDateTime
+    + getId(): Long
+    + getName(): String
+    + getAddress(): String
+    + getPropertyType(): String
+    + getUserId(): Long
+    + setName(name: String): void
+    + setAddress(address: String): void
+}
+
+class Space <<Entity>> {
+    - id: Long
+    - name: String
+    - description: String
+    - propertyId: Long
+    - createdAt: LocalDateTime
+    + getId(): Long
+    + getName(): String
+    + getDescription(): String
+    + getPropertyId(): Long
+    + setName(name: String): void
+    + setDescription(description: String): void
+}
+
+class Device <<Entity>> {
+    - id: Long
+    - name: String
+    - brand: String
+    - model: String
+    - deviceType: DeviceType
+    - status: DeviceStatus
+    - spaceId: Long
+    - createdAt: LocalDateTime
+    - updatedAt: LocalDateTime
+    + getId(): Long
+    + getName(): String
+    + getBrand(): String
+    + getModel(): String
+    + getDeviceType(): DeviceType
+    + getStatus(): DeviceStatus
+    + getSpaceId(): Long
+    + setName(name: String): void
+    + setBrand(brand: String): void
+    + setModel(model: String): void
+    + setStatus(status: DeviceStatus): void
+}
+
+' Repositories
+interface PropertyRepository <<Repository>> {
+    + findById(id: Long): Optional<Property>
+    + findByUserId(userId: Long): List<Property>
+    + save(property: Property): Property
+    + deleteById(id: Long): void
+}
+
+interface DeviceRepository <<Repository>> {
+    + findById(id: Long): Optional<Device>
+    + findBySpaceId(spaceId: Long): List<Device>
+    + findByPropertyId(propertyId: Long): List<Device>
+    + save(device: Device): Device
+    + deleteById(id: Long): void
+}
+
+' Services
+class PropertyService <<Service>> {
+    - propertyRepository: PropertyRepository
+    + createProperty(property: Property): Property
+    + getPropertyById(id: Long): Property
+    + getPropertiesByUserId(userId: Long): List<Property>
+    + updateProperty(id: Long, property: Property): Property
+    + deleteProperty(id: Long): void
+    + createSpace(propertyId: Long, space: Space): Space
+    + getSpacesByPropertyId(propertyId: Long): List<Space>
+}
+
+class DeviceService <<Service>> {
+    - deviceRepository: DeviceRepository
+    + addDevice(spaceId: Long, device: Device): Device
+    + getDeviceById(id: Long): Device
+    + getDevicesBySpaceId(spaceId: Long): List<Device>
+    + updateDevice(id: Long, device: Device): Device
+    + deleteDevice(id: Long): void
+}
+
+' Relations
+Property "1" *-- "0..*" Space : contains >
+Space "1" *-- "0..*" Device : contains >
+Device --> DeviceType : uses >
+Device --> DeviceStatus : uses >
+PropertyService --> PropertyRepository : uses >
+DeviceService --> DeviceRepository : uses >
+PropertyRepository ..> Property : manages >
+DeviceRepository ..> Device : manages >
+
+@enduml
