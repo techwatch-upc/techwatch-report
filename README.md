@@ -27,13 +27,13 @@
 
 ## Relación de Integrantes
 
-| Código | Apellidos y Nombres |
-|--------|---------------------|
-| U202310877 | Alva Abanto, Luis Andrés |
-| U20241E367 | Toro Turpo, Ronal |
-| U20XXXXXXX | [Apellido], [Nombre] |
-| U20XXXXXXX | [Apellido], [Nombre] |
-| U20XXXXXXX | [Apellido], [Nombre] |
+| Código     | Apellidos y Nombres             |
+|------------|---------------------------------|
+| U202310877 | Alva Abanto, Luis Andrés        |
+| U20241E367 | Toro Turpo, Ronal               |
+| U20XXXXXXX | [Apellido], [Nombre]            |
+| U202111529 | Montalvo Vásquez, Bruno Rodrigo |
+| U20XXXXXXX | [Apellido], [Nombre]            |
 
 ---
 
@@ -174,13 +174,13 @@ Frente a esta problemática, TechWatch desarrolla una plataforma web orientada a
 
 ## 1.1.2. Perfiles de integrantes del equipo
 
-| Foto | Nombres y Apellidos | Código | Carrera | Conocimientos y habilidades |
-|------|---------------------|--------|---------|-----------------------------|
-| <img src="assets/images/luis.png" width="100"/> | Luis Andrés Alva Abanto | u202310877 | Ingeniería de Software | Algoritmos, estructuras de datos, arquitectura de software, cloud, IA, QA. |
-| <img src="ruta/foto.jpg" width="100"/> | | | Ingeniería de Software | |
-| <img src="ruta/foto.jpg" width="100"/> | | | Ingeniería de Software | |
-| <img src="ruta/foto.jpg" width="100"/> | | | Ingeniería de Software | |
-| <img src="ruta/foto.jpg" width="100"/> | | | Ingeniería de Software | |
+| Foto                                             | Nombres y Apellidos            | Código     | Carrera | Conocimientos y habilidades                                                     |
+|--------------------------------------------------|--------------------------------|------------|---------|---------------------------------------------------------------------------------|
+| <img src="assets/images/luis.png" width="100"/>  | Luis Andrés Alva Abanto        | u202310877 | Ingeniería de Software | Algoritmos, estructuras de datos, arquitectura de software, cloud, IA, QA.      |
+| <img src="ruta/foto.jpg" width="100"/>           |                                |            | Ingeniería de Software |                                                                                 |
+| <img src="assets/images/bruno.png" width="100"/> | Bruno Rodrigo Montalvo Vásquez | u202111529 | Ingeniería de Software | Algoritmos, leve conocimiento de java y typescript; y arquitectura de software. |
+| <img src="ruta/foto.jpg" width="100"/>           |                                |            | Ingeniería de Software |                                                                                 |
+| <img src="ruta/foto.jpg" width="100"/>           |                                |            | Ingeniería de Software |                                                                                 |
 
 ## 1.2. Solution Profile
 
