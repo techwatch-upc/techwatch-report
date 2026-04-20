@@ -31,7 +31,7 @@
 |------------|---------------------------------|
 | U202310877 | Alva Abanto, Luis Andrés        |
 | U20241E367 | Toro Turpo, Ronal               |
-| U20XXXXXXX | Sebastian Uriel, Becerra Durand |
+| U20221B756 | Sebastian Uriel, Becerra Durand |
 | U202111529 | Montalvo Vásquez, Bruno Rodrigo |
 | U20XXXXXXX | [Apellido], [Nombre]            |
 
