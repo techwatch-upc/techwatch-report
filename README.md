@@ -806,34 +806,40 @@ Esta sección presenta la propuesta visual y de interacción de la aplicación w
 
 ### 4.4.1. Web Applications Wireframes
 
-![Wireframe 2](./assets/images/431img2.png)
+![Wireframe 1](./assets/images/441img1.png)
 
+![Wireframe 2](./assets/images/441img2.png)
 
-![Wireframe 3](./assets/images/431img3.png)
+![Wireframe 3](./assets/images/441img3.png)
 
-![Wireframe 4](./assets/images/431img4.png)
-
-![Wireframe 5](./assets/images/431img5.png)
-
-![Wireframe 6](./assets/images/431img6.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
+![Wireframe 1](./assets/images/442img1.png)
+
+
 ### 4.4.3. Web Applications Mock-ups
 
-![Mockup 2](./assets/images/432img2.png)
+![Wireframe 1](./assets/images/443img1.png)
 
-![Mockup 3](./assets/images/432img3.png)
+![Wireframe 2](./assets/images/443img2.png)
 
-![Mockup 4](./assets/images/432img4.png)
+![Wireframe 3](./assets/images/443img3.png)
 
-![Mockup 5](./assets/images/432img5.png)
-
-![Mockup 6](./assets/images/432img6.png)
+![Wireframe 4](./assets/images/443img4.png)
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
+![Wireframe 1](./assets/images/444img1.png)
+
 ## 4.5. Web Applications Prototyping
+
+The interactive prototype of the web application was designed using Figma.
+It allows visualization of the user interface, navigation flow, and key features of the system.
+
+Figma Prototype:
+
+https://www.figma.com/design/msBrKegzk619dYQHvns0Ty/Alexander-Fernandez-s-team-library?node-id=0-1&t=R28mF3mlxdLkhJ0k-1
 
 ## 4.6. Domain-Driven Software Architecture
 
