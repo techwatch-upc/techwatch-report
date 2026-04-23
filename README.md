@@ -365,27 +365,139 @@ Ambos segmentos se enmarcan en un contexto regional favorable: el mercado de Sma
 
 Plantilla para cada entrevista:
 
-### Entrevista [N] — [Nombre del entrevistado]
+### 2.2.2. Registro de entrevistas
+
+### Entrevista 1 — Gustavo Rivas
 
 | Campo | Detalle |
 |-------|---------|
-| Nombres y apellidos | |
-| Edad | |
-| Distrito | |
-| Segmento objetivo | |
-| Fecha de entrevista | |
-| Duración | |
-| Timing en el video | |
-| URL del video | |
+| Nombres y apellidos | Gustavo Rivas |
+| Edad | 26 años |
+| Distrito | San Juan de Lurigancho |
+| Segmento objetivo | Propietario de casa |
+| Fecha de entrevista | Abril 2026 |
+| Duración | 4 min aprox. |
+| Timing en el video | 00:00 - 04:00 |
+| URL del video | [Colocar enlace de Microsoft Stream] |
 
-![Screenshot del video](ruta/imagen.png)
+![Screenshot del video](assets/images/Cap2entrevista1.png)
 
-**Resumen:**
-[Párrafo descriptivo de las respuestas del entrevistado, incluyendo características
-objetivas y subjetivas: personalidad, marcas e influencias, dispositivos que usa,
-canales de interacción, browser, objetivos y frustraciones.]
+**Resumen:**  
+Gustavo Rivas trabaja en refacción de vehículos y muestra un perfil práctico orientado a la funcionalidad y al ahorro. En su día a día utiliza principalmente el celular, aunque también interactúa con cámaras de seguridad y sensores de humo instalados en su vivienda. No utiliza aplicaciones web o móviles para gestionar aspectos del hogar, ya que actualmente resuelve el monitoreo de forma manual. La única manera en que revisa el consumo eléctrico es observando el panel de control o el medidor tradicional. Considera que no cuenta con suficiente información sobre el gasto energético de su vivienda y cree importante optimizarlo para reducir costos. Mostró alto interés en una plataforma centralizada donde pueda visualizar el consumo eléctrico en una sola pantalla. Indicó además que sí pagaría una suscripción mensual si la solución le aporta valor. Valora especialmente que pueda usarse desde el celular. Comentó que ha tenido dificultades para controlar varios dispositivos a la vez debido a errores en las cámaras y a que la información está dispersa.
+
+---
+
+### Entrevista 2 — Tito Rusel Montalvo Vera
+
+| Campo | Detalle |
+|-------|---------|
+| Nombres y apellidos | Tito Rusel Montalvo Vera |
+| Edad | 51 años |
+| Distrito | San Juan de Miraflores |
+| Segmento objetivo | Propietario de casa |
+| Fecha de entrevista | Abril 2026 |
+| Duración | 5 min aprox. |
+| Timing en el video | 04:01 - 09:00 |
+| URL del video | [Colocar enlace de Microsoft Stream] |
+
+![Screenshot del video](assets/images/Cap2entrevista2.png)
+
+**Resumen:**  
+Tito Rusel Montalvo Vera es técnico en electricidad electrónica y posee un perfil analítico con interés en la tecnología aplicada al hogar. Utiliza con frecuencia la computadora y el celular. Actualmente no cuenta con dispositivos inteligentes en su vivienda y tampoco usa aplicaciones para administrar aspectos domésticos, aunque mencionó que le gustaría hacerlo si tuviera mayor conocimiento del tema. No tiene visibilidad clara sobre el consumo energético del hogar y siente que no posee suficiente control sobre los equipos de la casa. Considera importante optimizar recursos y reducir gastos. Mostró interés en una plataforma unificada que no solo muestre consumo energético, sino también estados de cuenta de servicios como internet u otros pagos relacionados al hogar. Señaló que el acceso desde el celular sería muy importante para monitorear su vivienda mientras trabaja. Vive en una casa de tres pisos y ha tenido dificultades para gestionar varios equipos distribuidos en distintos ambientes.
+
+---
+
+### Entrevista 3 — Aun no la suben
+
+---
+
+### Entrevista 4 — Daniel Palomino
+
+| Campo | Detalle |
+|-------|---------|
+| Nombres y apellidos | Daniel Palomino |
+| Edad | 22 años |
+| Distrito | Santiago de Surco |
+| Segmento objetivo | Arrendatario / propietario de departamento |
+| Fecha de entrevista | Abril 2026 |
+| Duración | 5 min aprox. |
+| Timing en el video | 09:01 - 14:00 |
+| URL del video | [Colocar enlace de Microsoft Stream] |
+
+![Screenshot del video](assets/images/Cap2entrevista4.png)
+
+**Resumen:**  
+Daniel Palomino es estudiante de Ingeniería de Software y representa un perfil joven con alta afinidad tecnológica. Usa principalmente smartphone, laptop con Windows y televisor. Cuenta con dispositivos inteligentes como Alexa y focos inteligentes en la sala. Utiliza aplicaciones para encender y apagar luces, pero no dispone de una solución más avanzada de monitoreo. Solo conoce su consumo eléctrico mediante recibos mensuales y apagando equipos que no usa, por lo que considera que no tiene control en tiempo real. Para él es importante optimizar el consumo energético por ahorro económico. Mostró gran interés en una plataforma centralizada con dashboard en tiempo real, visualización de dispositivos encendidos y alertas por consumo excesivo. Estaría dispuesto a pagar una suscripción siempre que la información sea clara, útil y de precio accesible. Indicó que el celular sería el dispositivo principal de uso y que apenas utilizaría laptop para estas tareas. Le permiten instalar dispositivos inteligentes en su departamento y le gustaría monitorear iluminación, electrodomésticos y la zona exterior de ingreso.
+
+---
+
+### Entrevista 5 — Eleno Giovanni Mena Zuleta
+
+| Campo | Detalle |
+|-------|---------|
+| Nombres y apellidos | Eleno Giovanni Mena Zuleta |
+| Edad | 39 años |
+| Distrito | San Juan de Lurigancho |
+| Segmento objetivo | Arrendatario / propietario de departamento |
+| Fecha de entrevista | Abril 2026 |
+| Duración | 4 min aprox. |
+| Timing en el video | 14:01 - 18:00 |
+| URL del video | [Colocar enlace de Microsoft Stream] |
+
+![Screenshot del video](assets/images/Cap2entrevista4.png)
+
+**Resumen:**  
+Eleno Giovanni Mena Zuleta trabaja desde casa y presenta un perfil orientado a la practicidad y seguridad del hogar. Utiliza principalmente el celular y como dispositivo inteligente solo cuenta con cámaras de vigilancia. Usa pocas veces aplicaciones web para gestionar aspectos domésticos. Señaló que sí tiene cierta visibilidad del consumo energético, aunque no mediante herramientas avanzadas. Indicó que nunca había pensado en la falta de control sobre sus dispositivos, pero sí considera importante optimizar el uso de energía. Le interesaría visualizar en una sola pantalla el estado y consumo eléctrico de su vivienda, especialmente el gasto energético. Confirmó que pagaría una suscripción mensual si la plataforma resulta útil. Considera indispensable que sea accesible desde el celular por facilidad de uso. Le permiten instalar dispositivos inteligentes y lo que más desea monitorear es el ingreso a la propiedad.
+
+---
+
+### Entrevista 6 — Gloria Quispe
+
+| Campo | Detalle |
+|-------|---------|
+| Nombres y apellidos | Gloria Quispe |
+| Edad | 30 años |
+| Distrito | San Juan de Miraflores |
+| Segmento objetivo | Arrendataria / propietaria de departamento |
+| Fecha de entrevista | Abril 2026 |
+| Duración | 4 min aprox. |
+| Timing en el video | 18:01 - 22:00 |
+| URL del video | [Colocar enlace de Microsoft Stream] |
+
+![Screenshot del video](assets/images/Cap2entrevista5.png)
+
+**Resumen:**  
+Gloria Quispe es ama de casa y representa un perfil enfocado en la economía familiar y la organización del hogar. El dispositivo que más utiliza es el celular. No cuenta con dispositivos inteligentes ni utiliza aplicaciones web para gestionar actividades domésticas. Tampoco posee visibilidad del consumo energético y comentó haber tenido dudas sobre el nivel de control e información respecto a los equipos de su hogar. Considera muy importante optimizar el consumo eléctrico y los recursos disponibles. Mostró interés en una plataforma que le permita ver el estado y consumo de sus dispositivos desde una sola pantalla, especialmente medidores de corriente. Indicó que pagaría una suscripción si la solución realmente ayuda al ahorro económico. También considera importante que la herramienta funcione correctamente en celular. Señaló que sí le permiten instalar dispositivos inteligentes y le gustaría monitorear principalmente habitaciones y salas.
+
+---
 
 ### 2.2.3. Análisis de entrevistas
+
+Se realizaron **6 entrevistas válidas**, distribuidas en los dos segmentos objetivo definidos previamente: **2 propietarios de casas (40%)** y **3 arrendatarios/propietarios de departamentos (60%)**.
+
+#### Análisis del Segmento 1: Propietarios de casas
+
+El **100%** de entrevistados de este segmento utiliza celular de forma frecuente, mientras que el **50%** también usa computadora de manera constante. En cuanto a dispositivos inteligentes, el **50%** ya cuenta con cámaras o sensores, mientras que el otro **50%** aún no ha adoptado esta tecnología, aunque muestra interés.
+
+Respecto a la gestión digital del hogar, el **100%** indicó no utilizar aplicaciones especializadas actualmente. Asimismo, el **100%** manifestó no tener visibilidad suficiente del consumo energético en tiempo real y depender de métodos tradicionales como medidores o revisión manual.
+
+Sobre necesidades y motivaciones, el **100%** considera importante optimizar recursos y reducir costos del hogar. También el **100%** usaría una plataforma centralizada para monitoreo y todos valoran el acceso desde smartphone. Finalmente, el **100%** afirmó haber tenido dificultades para gestionar varios ambientes o dispositivos al mismo tiempo.
+
+Esto evidencia que los propietarios de casas necesitan una solución simple, centralizada y móvil que facilite el control de múltiples espacios y permita ahorrar dinero mediante mejor información.
+
+#### Análisis del Segmento 2: Arrendatarios y propietarios de departamentos
+
+El **100%** de entrevistados utiliza el celular como dispositivo principal, y el **33%** también usa laptop con frecuencia. Sobre dispositivos inteligentes, el **67%** posee al menos uno (Alexa, focos inteligentes o cámaras), mientras que el **33%** no tiene actualmente.
+
+En cuanto al uso de plataformas digitales para el hogar, solo el **33%** utiliza aplicaciones activamente, mientras que el **67%** casi nunca o nunca las usa. Respecto al consumo energético, el **67%** no tiene visibilidad clara y solo el **33%** señaló tener cierto control.
+
+El **100%** considera importante optimizar el consumo energético y también el **100%** usaría una plataforma centralizada para visualizar información en una sola pantalla. Todos destacaron la importancia de acceso desde smartphone. Además, el **67%** estaría dispuesto a pagar una suscripción sin mayores dudas, mientras que el **33%** lo haría siempre que el precio sea accesible y el valor sea claro.
+
+Las principales prioridades de monitoreo fueron seguridad de ingresos, iluminación, electrodomésticos y control de ambientes internos.
+
+#### Conclusión general
+
+Los resultados muestran patrones claros en ambos segmentos: alta dependencia del celular, bajo uso de herramientas actuales de monitoreo, escasa visibilidad del consumo energético y fuerte interés por una solución centralizada. Esto valida la propuesta de valor de **TechWatch**, especialmente en funcionalidades como dashboard en tiempo real, alertas, métricas de consumo, experiencia móvil y facilidad de uso.
 
 ## 2.3. Needfinding
 
