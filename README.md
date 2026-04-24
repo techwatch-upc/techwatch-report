@@ -1174,8 +1174,8 @@ Para las pruebas de aceptación utilizamos **Gherkin** (Given-When-Then), permit
 
 | Integrante | Usuario de GitHub |
 |------------|-------------------|
-| Alva Abanto, Luis Andrés | [pendiente] |
-| Toro Turpo, Ronal | [pendiente] |
+| Alva Abanto, Luis Andrés | luis-alva0 |
+| Toro Turpo, Ronal | ronaltt-345 |
 | Montalvo Vásquez, Bruno Rodrigo | TartaroZ |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 |
 | Becerra Durand, Sebastian Uriel |sebasdev28|
@@ -1294,8 +1294,8 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 
 | Team Member (Last Name, First Name) | GitHub Username | [Aspecto 1] L/C | [Aspecto 2] L/C | [Aspecto n] L/C |
 |-------------------------------------|-----------------|-----------------|-----------------|-----------------|
-| Alva Abanto, Luis Andrés | [pendiente] | Landing Page (L) | Frontend Web App (C) | Testing (C) |
-| Toro Turpo, Ronal | [pendiente] | Backend Services (L) | Testing (C) | Deployment (C) |
+| Alva Abanto, Luis Andrés | luis-alva0| Landing Page (L) | Frontend Web App (C) | Testing (C) |
+| Toro Turpo, Ronal | ronaltt-345 | Backend Services (L) | Testing (C) | Deployment (C) |
 | Montalvo Vásquez, Bruno Rodrigo | TartaroZ | Frontend Web App (L) | Landing Page (C) | Documentation (C) |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 | UX/UI (L) | Landing Page (C) | Collaboration (C) |
 | Becerra Durand, Sebastian Uriel | sebasdev28 | Testing (L) | Backend Services (C) | Trello Management (C) |
@@ -1318,6 +1318,8 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 | General | Calidad | T10 | Pruebas funcionales UI | Validar navegación, enlaces, botones y diseño responsive. | 3 | [pendiente] | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
+Se realizaron los avances con los commits correspondiente en el repositorio de la siguiente forma.
+Repositorio Landing Page [LandingPage](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page)
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
