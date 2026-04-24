@@ -46,6 +46,7 @@
 | Versión | Fecha | Autor | Descripción de modificación |
 |---------|-------|-------|-----------------------------|
 | 1.0 | 2026-04-04 | Equipo TechWatch | Creación del informe. Inclusión de Capítulos I, II, III, IV y V (Sprint 1). |
+| 1.1 | 2026-04-24 | Equipo TechWatch | Actualización del Cap. V: evidencia de *commits* (`tb01`), matriz LACX, *Sprint Backlog* 1 alineado a *User Stories* de *landing*, despliegue (GitHub + Railway), y ajustes en *Student Outcome* y perfiles. |
 
 ---
 
@@ -151,8 +152,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Alva Abanto, Luis Andrés** <br><br> **AV1** <br><br> **Toro Turpo, Ronal** <br><br> **AV1** <br><br> **Fernandez Garfias, Alexander Piero** <br><br> **AV1** <br><br> **Montalvo Vásquez, Bruno Rodrigo** <br><br> **AV1** <br> Realicé 4 de las 6 entrevistas dirigidas a los segmentos objetivo del proyecto, formulando preguntas claras, escuchando activamente y adaptando la comunicación según el perfil de cada entrevistado. También participé en la explicación verbal de hallazgos y necesidades identificadas durante la investigación. <br><br> **Becerra Durand, Sebastian Uriel** <br><br> **AV1** | Como equipo, el desarrollo integral del proyecto permitió fortalecer la comunicación oral mediante entrevistas, coordinación constante, sustentación de ideas y validación de avances en distintas etapas. La interacción entre integrantes, usuarios entrevistados y docentes evidenció la capacidad de expresar propuestas con claridad, argumentar decisiones y adaptar el mensaje según la audiencia. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Alva Abanto, Luis Andrés** <br><br> **AV1** <br><br> **Toro Turpo, Ronal** <br><br> **AV1** <br><br> **Fernandez Garfias, Alexander Piero** <br><br> **AV1** <br><br> **Montalvo Vásquez, Bruno Rodrigo** <br><br> **AV1** <br> Elaboré las historias de usuario, technical stories, registro de entrevistas y análisis de entrevistas, redactando información clara, ordenada y comprensible para docentes, compañeros y futuros desarrolladores. También organicé y unifiqué el video de entrevistas como evidencia documental del trabajo realizado. <br><br> **Becerra Durand, Sebastian Uriel** <br><br> **AV1** | Como grupo, la elaboración de capítulos, análisis, diagramas, requerimientos, diseño, evidencias de implementación y documentación final permitió demostrar una comunicación escrita efectiva. El informe desarrollado transmite información técnica y académica de manera estructurada, comprensible y profesional para diferentes lectores, facilitando la comprensión del problema, la solución propuesta y los resultados obtenidos. |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Fernandez Garfias, Alexander Piero** — *Sprint 1* <br><br> Sustenté de forma prioritaria la coherencia entre el diseño en Figma (Landing Page) y el prototipo comentado al equipo, participando en dailies y resúmenes de avance. <br><br> **Alva Abanto, Luis Andrés** — *Sprint 1* <br><br> Realicé 4 de las 6 entrevistas a los segmentos objetivo y, en el Sprint 1, coordiné verbalmente criterios de aceptación y dudas de integración frente a la entrega de la landing. <br><br> **Toro Turpo, Ronal** — *Sprint 1* <br><br> Aporté en las reuniones de alineación revisando en voz alta el comportamiento de la navegación, el cajón móvil y el flujo entre secciones. <br><br> **Montalvo Vásquez, Bruno Rodrigo** — *Sprint 1* <br><br> Participé en discusiones sobre estructura de secciones y criterios de prueba antes de cierre de sprint. <br><br> **Becerra Durand, Sebastian Uriel** — *Sprint 1* <br><br> Colaboré en explicar hallazgos de pruebas rápidas de la UI y de enlaces al exponer el estado de la rama. | El equipo sostuvo comunicación oral clara con audiencias distintas: usuarios entrevistados, compañeros y el docente, ajustando el nivel de detalle técnico. Las reuniones de planificación, revisión y cierre de sprint permitieron validar la prioridad de la landing y asegurar criterios compartidos antes de integrar y desplegar. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Fernandez Garfias, Alexander Piero** — *Sprint 1* <br><br> Lideré la materialización de la landing y de los entregables visuales en Figma, dejando documentada la jerarquía, componentes y criterios de estilo reutilizados en el informe. Redacté mensajes de *commit* descriptivos y participé en *pull requests* y descripciones de tareas. <br><br> **Alva Abanto, Luis Andrés** — *Sprint 1* <br><br> Escribí historias de usuario, *technical stories*, registro y análisis de entrevistas, y acompañé la trazabilidad de *issues* y ramas hacia el *Product Backlog*. <br><br> **Toro Turpo, Ronal** — *Sprint 1* <br><br> Completé *checklists* en Trello, notas de integración para *scripts* compartidos y comentarios puntuales en repositorio sobre consistencia de rutas. <br><br> **Montalvo Vásquez, Bruno Rodrigo** — *Sprint 1* <br><br> Afiné textos y consistencia de datos en secciones informativas y aporté a la documentación de escenarios *BDD*. <br><br> **Becerra Durand, Sebastian Uriel** — *Sprint 1* <br><br> Dejé registradas observaciones de pruebas (enlaces, formularios, cambio de idioma) y acuerdos de calidad mínima antes de *merge* a rama principal. | La comunicación escrita alcanzó a docentes, compañeros y a futuros mantenedores: informe, GitHub, tablero de trabajo, mensajes de *commit* y criterios de aceptación en lenguaje verificable. Queda trazable la relación entre diseño, historias de usuario, código y despliegue, lo que mejora la comprensión del avance y reduce ambigüedad en sprints posteriores. |
 
 ---
 
@@ -172,15 +173,13 @@ Frente a esta problemática, TechWatch desarrolla una plataforma web orientada a
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-## 1.1.2. Perfiles de integrantes del equipo
-
 | Foto                                             | Nombres y Apellidos            | Código     | Carrera | Conocimientos y habilidades                                                     |
 |--------------------------------------------------|--------------------------------|------------|---------|---------------------------------------------------------------------------------|
-| <img src="assets/images/luis.png" width="100"/>  | Luis Andrés Alva Abanto        | u202310877 | Ingeniería de Software | Algoritmos, estructuras de datos, arquitectura de software, cloud, IA, QA.      |
-| <img src="assets/images/Ronal.png" width="100"/>           | Ronal Toro Turpo               | u20241e367 | Ingeniería de Software | Algoritmos, Diseño, Estructuras de datos y conocimientos en c++.             |
-| <img src="assets/images/bruno.png" width="100"/> | Bruno Rodrigo Montalvo Vásquez | u202111529 | Ingeniería de Software | Algoritmos, leve conocimiento de java y typescript; y arquitectura de software. |
-| <img src="ruta/foto.jpg" width="100"/>           | Alexander Piero Fernandez Garfias| U202019498 | Ingeniería de Software |                                                                                 |
-| <img src="ruta/foto.jpg" width="100"/>           | Sebastian Uriel Becerra Durand | U20221b756 | Ingeniería de Software |                                                                                 |
+| <img src="assets/images/luis.png" width="100"/>  | Luis Andrés Alva Abanto        | u202310877 | Ingeniería de Software | C++, algoritmos, arquitectura y servicios. En el sprint de la landing aportó criterios de aceptación, alineación con requerimientos y revisión de integración respecto a enlaces y flujos. |
+| <img src="assets/images/Ronal.png" width="100"/> | Ronal Toro Turpo               | u20241e367 | Ingeniería de Software | C++, HTML, CSS, JavaScript. Afinó el comportamiento de la navegación, el menú lateral y la transición entre secciones, además de validar usabilidad en la vista móvil. |
+| <img src="assets/images/bruno.png" width="100"/> | Bruno Rodrigo Montalvo Vásquez | u202111529 | Ingeniería de Software | C++, Java y TypeScript básico. Cuidó la coherencia de textos, tarjetas de *pricing* y datos mostrados en *features* frente a lo definido en requerimientos. |
+| <img src="ruta/foto.jpg" width="100"/>           | Alexander Piero Fernandez Garfias | u202019498 | Ingeniería de Software | C++, HTML, CSS, JavaScript, C#, Python, Java y Flutter. Diseño y *frontend* web y móvil. Se encargó de la **implementación de la Landing Page** (maquetado, estilos y conexión con *login*/*registro* e *i18n*) y de los **diseños y prototipos en Figma** que definen la identidad visual del producto. |
+| <img src="ruta/foto.jpg" width="100"/>           | Sebastian Uriel Becerra Durand | u20221b756 | Ingeniería de Software | C++, pruebas exploratorias básicas y atención al detalle. En la landing aportó revisiones de formularios, *footer*, enlaces externos y *checklist* de despliegue antes de publicar en el entorno productivo. |
 
 ## 1.2. Solution Profile
 
@@ -1178,23 +1177,26 @@ Para las pruebas de aceptación utilizamos **Gherkin** (Given-When-Then), permit
 | Toro Turpo, Ronal | ronaltt-345 |
 | Montalvo Vásquez, Bruno Rodrigo | TartaroZ |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 |
-| Becerra Durand, Sebastian Uriel |sebasdev28|
+| Becerra Durand, Sebastian Uriel | sebasdev28 |
 
 **URL de organización en GitHub:**  
 [https://github.com/upc-pre-202610-1asi0729-11896-techwatch](https://github.com/upc-pre-202610-1asi0729-11896-techwatch)
 
-**URL del repositorio de Landing Page:**  
-[https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git)
+**Repositorio público de la Landing Page (código y tablero de *issues*):**  
+[https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page)  
+(Clonación: `https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git`)
+
+Cada integrante se autenticó con su propia cuenta de GitHub (tabla *Usuarios de GitHub*) y comprobó **git config user.name** / **user.email** antes de subir *commits*.
 
 #### Estrategia de ramas
 
-Para el control de versiones usamos un flujo basado en tres ramas principales del equipo:
+Para el **Sprint 1 (Landing Page)** se trabajó principalmente en la rama **`tb01`**, donde se registran los avances (header, secciones, *login*/*i18n*, *responsive*). El flujo de integración con el repositorio es:
 
-- **Rama `main`:** contiene la versión estable y publicada del proyecto.
-- **Rama `develop`:** integra cambios validados antes de pasar a `main`.
-- **Rama `tb01`:** rama de trabajo del equipo para implementación y pruebas de funcionalidades del sprint.
+- **`main`:** versión estable, base para publicación o integración con el proveedor de *hosting*.
+- **`develop` (o equivalente de integración):** puede recibir *merge* desde ramas de *feature* cuando se validen revisiones.
+- **`tb01`:** rama de trabajo colaborativa del *team*; los *commits* listados en la sección 5.2.1.4 se realizan sobre ella, con revisiones y *pull requests* hacia `main` o `develop` según cierre de *sprint*.
 
-Este esquema permite trabajar en paralelo sin afectar la versión estable, mantener trazabilidad de cambios y facilitar revisiones mediante pull requests.
+Las *pull requests* y el historial de *commits* permiten auditar quién integró cada parte del *frontend* y mantener coherencia con las historias de usuario priorizadas en el *Product Backlog* (capítulo 3.1).
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -1267,7 +1269,7 @@ Para la configuración de despliegue del proyecto se usa Git + GitHub:
 - **Git** permite versionar cambios, crear ramas de trabajo y fusionar avances de forma controlada.
 - **GitHub** aloja repositorios remotos, centraliza revisión de código con pull requests y conserva historial completo de versiones.
 
-El flujo de despliegue considera que los cambios se integran en `develop`, se validan y luego se publican en `main`. Desde `main` se realiza la publicación de entregables (por ejemplo, Landing Page en GitHub Pages) asegurando que la versión desplegada sea estable.
+El flujo de despliegue toma el código alojado en **GitHub** (rama publicable acordada por el equipo) y publica el sitio en **Railway** mediante *build* y *deploy* conectado al repositorio. Cada integración a la rama desplegada pasa por validación básica en *staging* o revisión de *PR* según se defina con el cierre de *sprint*, de modo que la versión pública de la *Landing Page* [https://landing-page-production-8095.up.railway.app](https://landing-page-production-8095.up.railway.app) corresponde a *commits* rastreables.
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -1278,58 +1280,84 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 | Sprint # | Sprint 1 |
 |----------|----------|
 | **Sprint Planning Background** | |
-| Date | 2024-03-07 |
+| Date | 2026-04-10 |
 | Time | 5:00 PM |
 | Location | Virtual (Google Meet) |
 | Prepared By | Alva Abanto, Luis Andrés |
-| Attendees (to planning meeting) | Alva Abanto, Luis Andrés; Toro Turpo, Ronal; Montalvo Vásquez, Bruno Rodrigo; Fernandez Garfias, Alexander Piero; Integrante 5 |
+| Attendees (to planning meeting) | Alva Abanto, Luis Andrés; Toro Turpo, Ronal; Montalvo Vásquez, Bruno Rodrigo; Fernandez Garfias, Alexander Piero; Becerra Durand, Sebastian Uriel |
 | Sprint 0 Review Summary | No hubo sprint anterior. |
 | Sprint 0 Retrospective Summary | No hubo sprint anterior. |
 | **Sprint Goal & User Stories** | |
-| Sprint 1 Goal | Realizar la Landing Page. |
+| Sprint 1 Goal | Entregar la *Landing Page* pública (secciones informativas, CTA, *pricing*, contacto, *about*, testimonios, *login* y *registro* estáticos, *i18n* EN/ES, *demo* “Try it right now!”, *responsive*) alineada a las *User Stories* 3.1: US11, US12, US13, US14, US06, US22, US01, US02, US04. |
 | Sprint 1 Velocity | 20 |
 | Sum of Story Points | 20 |
 
 #### 5.2.1.2. Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | [Aspecto 1] L/C | [Aspecto 2] L/C | [Aspecto n] L/C |
-|-------------------------------------|-----------------|-----------------|-----------------|-----------------|
-| Alva Abanto, Luis Andrés | luis-alva0| Landing Page (L) | Frontend Web App (C) | Testing (C) |
-| Toro Turpo, Ronal | ronaltt-345 | Backend Services (L) | Testing (C) | Deployment (C) |
-| Montalvo Vásquez, Bruno Rodrigo | TartaroZ | Frontend Web App (L) | Landing Page (C) | Documentation (C) |
-| Fernandez Garfias, Alexander Piero | Dostoyevsk1 | UX/UI (L) | Landing Page (C) | Collaboration (C) |
-| Becerra Durand, Sebastian Uriel | sebasdev28 | Testing (L) | Backend Services (C) | Trello Management (C) |
+En el **Sprint 1** el alcance se concentró en la *Landing Page* (HTML, CSS, JavaScript): estructura y navegación, bloques informativos y de conversión, *login* y *registro* de demostración, *internacionalización* (inglés y español), ajuste *responsive* y publicación. Los **aspectos** de la matriz LACX (*Leadership and Collaboration eXtended*) son subconjuntos concretos de esa entrega; **L** indica a la persona que coordina cierre y coherencia del aspecto, y **C** a quien colabora con aportes, *commits* puntuales o *feedback*. La asignación es coherente con las tareas y prioridades del *Sprint Backlog* 1 (5.2.1.3) y con las *User Stories* de la sección 3.1 (especialmente EP04 y, para *login*, registro e *i18n*, *US01*, *US02* y *US04*; ver sección 3.1).
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspecto: Navegación, *header* y cajón móvil (L / C) | Aspecto: *Hero*, *features*, reorden, *about*, *pricing*, contacto, *footer* y testimonios (L / C) | Aspecto: *Login*, *registro* e *i18n* (L / C) | Aspecto: estilos, paleta, *logo* y *responsive* (L / C) | Aspecto: repositorio Git, ramas `tb01` y flujo a publicación (L / C) | Aspecto: pruebas de humo, enlaces y criterios antes de cierre (L / C) |
+|-------------------------------------|-----------------|--------|--------|--------|--------|--------|--------|
+| Alva Abanto, Luis Andrés | luis-alva0 | C | C | C | C | L | C |
+| Toro Turpo, Ronal | ronaltt-345 | L | C | C | C | C | C |
+| Montalvo Vásquez, Bruno Rodrigo | TartaroZ | C | C | C | C | C | C |
+| Fernandez Garfias, Alexander Piero | Dostoyevsk1 | C | L | L | L | C | C |
+| Becerra Durand, Sebastian Uriel | sebasdev28 | C | C | C | C | C | L |
 
 #### 5.2.1.3. Sprint Backlog 1
 
+Las tareas se derivan de las *User Stories* de la sección 3.1 cuyo alcance corresponde a la *Landing Page* (captación, información pública, planes, contacto, *login* de demostración e *i18n* de la interfaz estática).
+
 | Sprint # | Sprint 1 | | | | | | |
 |----------|----------|-|-|-|-|-|-|
-| **User Story** | | **Work-Item / Task** | | | | | |
-| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US11 | Ver propuesta de valor | T01 | Implementar sección Hero | Maquetar propuesta de valor principal con título, subtítulo y CTA. | 4 | [pendiente] | Done |
-| US12 | Navegar por secciones informativas | T02 | Implementar Navbar responsive | Crear barra de navegación adaptable con enlaces internos. | 3 | [pendiente] | Done |
-| US12 | Navegar por secciones informativas | T03 | Implementar secciones informativas | Desarrollar secciones About, Benefits, Features y Footer. | 6 | [pendiente] | Done |
-| US13 | Redirección a registro | T04 | Configurar CTA de registro | Enlazar botones de registro hacia formulario o flujo definido. | 2 | [pendiente] | Done |
-| US14 | Probar demo interactiva | T05 | Implementar botón demo | Agregar botón “Try it right now!” con navegación a demo. | 3 | [pendiente] | Done |
-| US06 | Visualizar planes disponibles | T06 | Crear sección Pricing | Mostrar planes con beneficios, precios y llamado a la acción. | 4 | [pendiente] | Done |
-| US22 | Enviar solicitud de contacto | T07 | Implementar formulario contacto | Crear formulario para consultas de usuarios interesados. | 4 | [pendiente] | Done |
-| US11 | Ver propuesta de valor | T08 | Ajustes responsive generales | Optimizar estilos para móvil, tablet y desktop. | 5 | [pendiente] | Done |
-| General | Configuración | T09 | Deploy Landing Page | Publicar landing page en entorno accesible. | 2 | [pendiente] | Done |
-| General | Calidad | T10 | Pruebas funcionales UI | Validar navegación, enlaces, botones y diseño responsive. | 3 | [pendiente] | Done |
+| **User Story** (cap. 3.1) | | **Work-Item / Task** | | | | | |
+| Id | Título | Id | Título | Descripción (ligada a criterios de aceptación) | Estimación (h) | Assigned To | Status |
+| US12 | Navegar por secciones informativas | T01 | *Header* HTML, estilos y espaciado | Estructura de cabecera, hoja de estilos base y ajuste de márgenes según diseño. | 5 | ronaltt-345, Dostoyevsk1 | Done |
+| US11 / US12 | Ver propuesta de valor / Navegación | T02 | *Hero* y reorden *hero*–*features* | Propuesta de valor, bloque de *features* y *refactor* de orden de secciones. | 6 | Dostoyevsk1 | Done |
+| US11 | Ver propuesta de valor | T03 | Rediseño de paleta y estructura CSS | Nueva paleta, *layout* general y comentarios en hojas de estilo. | 6 | Dostoyevsk1 | Done |
+| US12 | Navegar por secciones informativas | T04 | Sustitución de *logo* e imagen de marca | Actualizar recurso de logo y su integración en cabecera y *footer*. | 2 | Dostoyevsk1 | Done |
+| US12 | Navegar por secciones informativas | T05 | *About us* (equipo) y reorganización *UI* | Sección “Sobre nosotros” y correcciones menores de *layout*. | 5 | Dostoyevsk1, TartaroZ | Done |
+| US06 | Visualizar planes disponibles | T06 | Sección *Pricing* | Planes con moneda, beneficios y botones hacia *registro*. | 4 | Dostoyevsk1, TartaroZ | Done |
+| US22 | Enviar solicitud de contacto | T07 | *Contact* y *footer* | Formulario o bloque de contacto y cierre con pie de página. | 5 | Dostoyevsk1 | Done |
+| US12 | Navegar por secciones informativas | T08 | Reseñas (testimoniales) | Tarjetas de comentarios de “clientes” y maquetado de sección. | 4 | Dostoyevsk1 | Done |
+| US01 / US02 | Registro / Inicio de sesión | T09 | Páginas *login* y *register* | Maquetas estáticas enlazadas desde el *header*; preparación a futura integración con *backend*. | 6 | Dostoyevsk1 | Done |
+| US04 | Cambiar idioma de la plataforma | T10 | *i18n* (`i18n.js` + textos) | Diccionarios y conmutación EN/ES alineada a criterio de aceptación de *US04* en *landing*. | 5 | Dostoyevsk1, ronaltt-345 | Done |
+| US12 / US11 | *Layout* y propuesta de valor móvil | T11 | *Layout* *responsive* | *Media queries* y comportamiento móvil/tablet homogéneo. | 5 | Dostoyevsk1 | Done |
+| — | *Deployment* | T12 | *Deploy* (Railway) + repositorio | *CI/CD* o *deploy* manual desde *Git*; *URL* pública en Railway vinculada a GitHub. | 3 | luis-alva0, sebasdev28 | Done |
+| — | Calidad | T13 | *Smoke tests* y revisión de enlaces | *Checklist* de *footer*, formulario, *CTA* y *toggle* de idioma. | 3 | sebasdev28, TartaroZ | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
-Se realizaron los avances con los commits correspondiente en el repositorio de la siguiente forma.
-Repositorio Landing Page [LandingPage](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page)
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
-|------------|--------|-----------|----------------|---------------------|---------------------|
-| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | [pendiente] | [pendiente] | [pendiente] | [pendiente] |
-| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | develop | [pendiente] | [pendiente] | [pendiente] | [pendiente] |
-| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | main | [pendiente] | [pendiente] | [pendiente] | [pendiente] |
+Se registró el progreso del *Sprint 1* con *commits* en el repositorio de la *Landing Page* (rama **`tb01`**). Los mensajes siguen *Conventional Commits* (`feat`, `style`, `refactor`).
+
+**Repositorio en GitHub:** [upc-pre-202610-1asi0729-11896-techwatch/Landing-Page](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page) · rama de trabajo: **`tb01`**.
+
+Los *hash* con longitud 7 (salvo el **SHA completo** cuando se indicó) se corresponden con el historial de GitHub; *Git* puede mostrar un prefijo más largo o el hash completo en [https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page/commits/tb01](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page/commits/tb01).
+
+| Repository | Branch | *Commit* Id | Mensaje (asunto) | Cuerpo / notas | Fecha *commit* |
+|------------|--------|-------------|------------------|---------------|---------------|
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | e2879ee | feat(header): add HTML structure | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 6510892 | style(header): add header styles | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | b365d54 | style(header): adjust spacing and layout | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 056a1ee | feat(pricing): add section pricing | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 170023e | feat(contact): add contact us section | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 5c5f7a1 | refactor(feature): reorder hero and feature sections | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 8ab18e7 | feat(footer): add footer section | — | 17/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | e4ae200 | style(ui): redesign ui with new color palette and improved layout | — | 18/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 58b4e8c | feat(ui): replace logo image | — | 18/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | a5eeb7a | style(ui): improve css layout and structure | — | 18/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 4bfe00e | feat(about-us): add about us section | — | 18/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 2015e71 | style(ui): reorganize layout and fix minor issues | — | 18/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 1240367 | feat(testimonials): add testimonials section | — | 20/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 65d37afec72f80a2bee4efb5fac14f83b12c5ca6 | feat(login): add login and register | — | 20/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | fceb7597bf470bee5eabfcfff2ef31bdea215ed7 | feat(i18n): add i18n for the translate | — | 20/04/2026 |
+| upc-pre-202610-1asi0729-11896-techwatch/Landing-Page | tb01 | 7286078a24f9950380b0d10c7f3e3cbf76a76d00 | feat(ui): make layout responsive | — | 20/04/2026 |
 
 #### 5.2.1.5. Execution Evidence for Sprint Review
 
-URL de video:  
+**Comprobación en el navegador (producción):** [https://landing-page-production-8095.up.railway.app](https://landing-page-production-8095.up.railway.app) (mismo *deploy* documentado en 5.2.1.7).
+
+*URL* de *video* de demostración o *Sprint Review* (opcional):  
 [pendiente]
 
 Evidencia de ejecución (capturas de la Landing Page):
@@ -1345,18 +1373,23 @@ Durante el Sprint 1 el equipo se enfocó en la implementación de la Landing Pag
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Para este sprint, el despliegue de la Landing Page se realiza mediante GitHub Pages desde la rama `main` del repositorio oficial.
+**Flujo de publicación (Sprint 1):** el **código fuente** y el historial de *commits* viven en **GitHub** ([*Landing-Page*](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page), rama de trabajo `tb01` documentada en 5.2.1.4). El **entorno de ejecución público** se aprovisiona en **Railway**, conectado al repositorio remoto, de modo que al integrar cambios en la rama configurada (por ejemplo, `main` o la rama *build* definida en el *dashboard* de Railway) se dispara un *build* (contenido estático HTML/CSS/JS) y se expone la **URL pública** del servicio.
 
-Repositorio de referencia:  
-[https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git)
+**Repositorio:** [https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page) · clon: `https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page.git`
 
-URL de deployment:  
+**URL pública (Railway — producción):**  
 [https://landing-page-production-8095.up.railway.app](https://landing-page-production-8095.up.railway.app)
 
-Capturas del proceso de deployment:
+Desde esa *URL* se verifica un despliegue *live* (cabecera, *hero*, *features*, secciones de *pricing*, contacto, testimonios, *login* y *i18n*, *responsive*), coherente con el alcance de las historias de la *landing* listadas en 3.1 y 5.2.1.3.
 
-![Deployment 1](assets/images/[pendiente-deployment-1].png)
-![Deployment 2](assets/images/[pendiente-deployment-2].png)
+*Evidencia gráfica sugerida: panel de Railway con repositorio enlazado, *build* / *deploy* exitoso, y el sitio abierto en el navegador en la *URL* indicada. Sustituir imágenes al exportar el informe PDF.*
+
+```text
+Flujo: GitHub (código) → Railway (build + hosting) → https://landing-page-production-8095.up.railway.app
+```
+
+![Captura 1 - Entorno de despliegue (pendiente)](assets/images/pendiente-deployment-1.png)
+![Captura 2 - Sitio en producción (pendiente)](assets/images/pendiente-deployment-2.png)
 
 #### 5.2.1.8. Team Collaboration Insights during Sprint
 
