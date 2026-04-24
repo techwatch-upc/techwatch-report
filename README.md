@@ -1370,6 +1370,13 @@ Organización del equipo en GitHub:
 
 ## Conclusiones y recomendaciones
 
+El proyecto TechWatch permitió identificar y abordar la falta de una plataforma centralizada para la gestión de dispositivos en hogares inteligentes, evidenciando una necesidad real en el mercado. A través de metodologías como Lean UX, entrevistas y análisis de usuarios, se validó que los usuarios buscan soluciones accesibles, visuales y enfocadas en la toma de decisiones.
+
+Asimismo, el desarrollo del diseño, arquitectura y prototipos demostró la viabilidad técnica de la propuesta. En este sentido, TechWatch se posiciona como una solución innovadora que integra monitoreo, análisis de datos y experiencia de usuario para optimizar la gestión del hogar inteligente.
+
+Se recomienda continuar con la validación del producto mediante pruebas con usuarios reales, así como ampliar la integración con dispositivos IoT para mejorar su funcionalidad. Además, es importante optimizar la arquitectura para asegurar escalabilidad y fortalecer el modelo de negocio, evaluando la aceptación del esquema freemium.
+Finalmente, se sugiere incorporar funcionalidades avanzadas como alertas inteligentes y recomendaciones automatizadas, que incrementen el valor de la plataforma.
+
 ---
 
 # Bibliografía
