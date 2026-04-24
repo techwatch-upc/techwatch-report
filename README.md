@@ -1302,10 +1302,9 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| Sprint # | Sprint 1 |
-|----------|----------|
-
-| **User Story** | **Work-Item / Task** |  |  |  |  |  |  |
+| Sprint # | Sprint 1 | | | | | | |
+|----------|----------|-|-|-|-|-|-|
+| **User Story** | | **Work-Item / Task** | | | | | |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
 |----|------|----|------|-------------|-------------------|------------|--------|
 | US11 | Ver propuesta de valor | T01 | Implementar sección Hero | Maquetar propuesta de valor principal con título, subtítulo y CTA. | 4 | [pendiente] | Done |
