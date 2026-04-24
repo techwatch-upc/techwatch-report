@@ -1302,15 +1302,22 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 
 #### 5.2.1.3. Sprint Backlog 1
 
-| Sprint # | Sprint 1 | | | | | | |
-|----------|----------|-|-|-|-|-|-|
-| **User Story** | | **Work-Item / Task** | | | | | |
+| Sprint # | Sprint 1 |
+|----------|----------|
+
+| **User Story** | **Work-Item / Task** |  |  |  |  |  |  |
 | Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
-| US11 | Ver propuesta de valor | T01 | Implementar sección Hero | Maquetar propuesta de valor principal con CTA. | 4 | [pendiente] | Done |
-| US12 | Navegar por secciones informativas | T02 | Implementar Navbar responsive | Crear barra de navegación con anclas a secciones. | 3 | [pendiente] | Done |
-| US12 | Navegar por secciones informativas | T03 | Implementar secciones informativas | Desarrollar secciones About, Features y Contact. | 6 | [pendiente] | Done |
-| US13 | Redirección a registro | T04 | Configurar CTA de registro | Conectar botones de registro con flujo definido. | 2 | [pendiente] | Done |
-| US11 | Ver propuesta de valor | T05 | Estilos responsive de Landing | Ajustar estilos para móvil, tablet y desktop. | 5 | [pendiente] | Done |
+|----|------|----|------|-------------|-------------------|------------|--------|
+| US11 | Ver propuesta de valor | T01 | Implementar sección Hero | Maquetar propuesta de valor principal con título, subtítulo y CTA. | 4 | [pendiente] | Done |
+| US12 | Navegar por secciones informativas | T02 | Implementar Navbar responsive | Crear barra de navegación adaptable con enlaces internos. | 3 | [pendiente] | Done |
+| US12 | Navegar por secciones informativas | T03 | Implementar secciones informativas | Desarrollar secciones About, Benefits, Features y Footer. | 6 | [pendiente] | Done |
+| US13 | Redirección a registro | T04 | Configurar CTA de registro | Enlazar botones de registro hacia formulario o flujo definido. | 2 | [pendiente] | Done |
+| US14 | Probar demo interactiva | T05 | Implementar botón demo | Agregar botón “Try it right now!” con navegación a demo. | 3 | [pendiente] | Done |
+| US06 | Visualizar planes disponibles | T06 | Crear sección Pricing | Mostrar planes con beneficios, precios y llamado a la acción. | 4 | [pendiente] | Done |
+| US22 | Enviar solicitud de contacto | T07 | Implementar formulario contacto | Crear formulario para consultas de usuarios interesados. | 4 | [pendiente] | Done |
+| US11 | Ver propuesta de valor | T08 | Ajustes responsive generales | Optimizar estilos para móvil, tablet y desktop. | 5 | [pendiente] | Done |
+| General | Configuración | T09 | Deploy Landing Page | Publicar landing page en entorno accesible. | 2 | [pendiente] | Done |
+| General | Calidad | T10 | Pruebas funcionales UI | Validar navegación, enlaces, botones y diseño responsive. | 3 | [pendiente] | Done |
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
