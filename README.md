@@ -21,7 +21,7 @@
 
 **Nombre del Startup:** TechWatch
 
-**Nombre del Producto:** 
+**Nombre del Producto:** IntelliHome
 
 ---
 
