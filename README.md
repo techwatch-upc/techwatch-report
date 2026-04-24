@@ -1354,10 +1354,7 @@ Se registró el progreso del *Sprint 1* con *commits* en el repositorio de la *L
 
 **Comprobación en el navegador (producción):** [https://landing-page-production-8095.up.railway.app](https://landing-page-production-8095.up.railway.app)
 
-*URL* de *video* de demostración o *Sprint Review* (opcional):  
-[pendiente]
-
-Evidencia de ejecución (capturas de la Landing Page):
+Evidencia de ejecución :
 
 ![Evidencia 1 - Landing Page](assets/images/5215img.png)
 ![Evidencia 2 - Navbar](assets/images/5215img2.png)
