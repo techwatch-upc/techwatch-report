@@ -144,15 +144,15 @@ URL del repositorio del Project Report en GitHub:
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 3**
+**ABET – EAC - Student Outcome 3**  
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | [Apellido], [Nombre] <br><br> **AV1** <br> [Descripción de acciones realizadas] | [Conclusiones grupales] |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | [Apellido], [Nombre] <br><br> **AV1** <br> [Descripción de acciones realizadas] | [Conclusiones grupales] |
+| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Alva Abanto, Luis Andrés** <br><br> **AV1** <br><br> **Toro Turpo, Ronal** <br><br> **AV1** <br><br> **Fernandez Garfias, Alexander Piero** <br><br> **AV1** <br><br> **Montalvo Vásquez, Bruno Rodrigo** <br><br> **AV1** <br><br> **Becerra Durand, Sebastian Uriel** <br><br> **AV1** <br> Realicé 4 de las 6 entrevistas dirigidas a los segmentos objetivo del proyecto, formulando preguntas claras, escuchando activamente y adaptando la comunicación según el perfil de cada entrevistado. También participé en la explicación verbal de hallazgos y necesidades identificadas durante la investigación. | Como equipo, el desarrollo integral del proyecto permitió fortalecer la comunicación oral mediante entrevistas, coordinación constante, sustentación de ideas y validación de avances en distintas etapas. La interacción entre integrantes, usuarios entrevistados y docentes evidenció la capacidad de expresar propuestas con claridad, argumentar decisiones y adaptar el mensaje según la audiencia. |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Alva Abanto, Luis Andrés** <br><br> **AV1** <br><br> **Toro Turpo, Ronal** <br><br> **AV1** <br><br> **Fernandez Garfias, Alexander Piero** <br><br> **AV1** <br><br> **Montalvo Vásquez, Bruno Rodrigo** <br><br> **AV1** <br><br> **Becerra Durand, Sebastian Uriel** <br><br> **AV1** <br> Elaboré las historias de usuario, technical stories, registro de entrevistas y análisis de entrevistas, redactando información clara, ordenada y comprensible para docentes, compañeros y futuros desarrolladores. También organicé y unifiqué el video de entrevistas como evidencia documental del trabajo realizado. | Como grupo, la elaboración de capítulos, análisis, diagramas, requerimientos, diseño, evidencias de implementación y documentación final permitió demostrar una comunicación escrita efectiva. El informe desarrollado transmite información técnica y académica de manera estructurada, comprensible y profesional para diferentes lectores, facilitando la comprensión del problema, la solución propuesta y los resultados obtenidos. |
 
 ---
 
