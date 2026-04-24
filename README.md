@@ -456,7 +456,7 @@ Daniel Palomino es estudiante de Ingeniería de Software y representa un perfil 
 | Timing en el video | 17:06 - 20:00 |
 | URL del video | [Colocar enlace de Microsoft Stream] |
 
-![Screenshot del video](assets/images/Cap2entrevista4.png)
+![Screenshot del video](assets/images/Cap2entrevista5.png)
 
 **Resumen:**  
 Eleno Giovanni Mena Zuleta trabaja desde casa y presenta un perfil orientado a la practicidad y seguridad del hogar. Utiliza principalmente el celular y como dispositivo inteligente solo cuenta con cámaras de vigilancia. Usa pocas veces aplicaciones web para gestionar aspectos domésticos. Señaló que sí tiene cierta visibilidad del consumo energético, aunque no mediante herramientas avanzadas. Indicó que nunca había pensado en la falta de control sobre sus dispositivos, pero sí considera importante optimizar el uso de energía. Le interesaría visualizar en una sola pantalla el estado y consumo eléctrico de su vivienda, especialmente el gasto energético. Confirmó que pagaría una suscripción mensual si la plataforma resulta útil. Considera indispensable que sea accesible desde el celular por facilidad de uso. Le permiten instalar dispositivos inteligentes y lo que más desea monitorear es el ingreso a la propiedad.
@@ -476,7 +476,7 @@ Eleno Giovanni Mena Zuleta trabaja desde casa y presenta un perfil orientado a l
 | Timing en el video | 20:01 - 22:27 |
 | URL del video | [Colocar enlace de Microsoft Stream] |
 
-![Screenshot del video](assets/images/Cap2entrevista5.png)
+![Screenshot del video](assets/images/Cap2entrevista6.png)
 
 **Resumen:**  
 Gloria Quispe es ama de casa y representa un perfil enfocado en la economía familiar y la organización del hogar. El dispositivo que más utiliza es el celular. No cuenta con dispositivos inteligentes ni utiliza aplicaciones web para gestionar actividades domésticas. Tampoco posee visibilidad del consumo energético y comentó haber tenido dudas sobre el nivel de control e información respecto a los equipos de su hogar. Considera muy importante optimizar el consumo eléctrico y los recursos disponibles. Mostró interés en una plataforma que le permita ver el estado y consumo de sus dispositivos desde una sola pantalla, especialmente medidores de corriente. Indicó que pagaría una suscripción si la solución realmente ayuda al ahorro económico. También considera importante que la herramienta funcione correctamente en celular. Señaló que sí le permiten instalar dispositivos inteligentes y le gustaría monitorear principalmente habitaciones y salas.
