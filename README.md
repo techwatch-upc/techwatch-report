@@ -1325,6 +1325,8 @@ Las tareas se derivan de las *User Stories* de la sección 3.1 cuyo alcance corr
 | — | *Deployment* | T12 | *Deploy* (Railway) + repositorio | *CI/CD* o *deploy* manual desde *Git*; *URL* pública en Railway vinculada a GitHub. | 3 | luis-alva0, sebasdev28 | Done |
 | — | Calidad | T13 | *Smoke tests* y revisión de enlaces | *Checklist* de *footer*, formulario, *CTA* y *toggle* de idioma. | 3 | sebasdev28, TartaroZ | Done |
 
+URL TRELLO: el trello para el sprint bakclog: https://trello.com/invite/b/69eabab8c6d017d12b30ef1a/ATTI0ffb67d3696eb6f7a708ef028730f00eC143C8F8/sprint-backlog-1-techwatch
+
 #### 5.2.1.4. Development Evidence for Sprint Review
 
 Se registró el progreso del *Sprint 1* con *commits* en el repositorio de la *Landing Page* (rama **`tb01`**). Los mensajes siguen *Conventional Commits* (`feat`, `style`, `refactor`).
