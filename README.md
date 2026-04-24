@@ -1171,7 +1171,7 @@ Para las pruebas de aceptación utilizamos **Gherkin** (Given-When-Then), permit
 |------------|-------------------|
 | Alva Abanto, Luis Andrés | [pendiente] |
 | Toro Turpo, Ronal | [pendiente] |
-| Montalvo Vásquez, Bruno Rodrigo | [pendiente] |
+| Montalvo Vásquez, Bruno Rodrigo | TartaroZ |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 |
 | Integrante 5 | [pendiente] |
 
@@ -1291,7 +1291,7 @@ El flujo de despliegue considera que los cambios se integran en `develop`, se va
 |-------------------------------------|-----------------|-----------------|-----------------|-----------------|
 | Alva Abanto, Luis Andrés | [pendiente] | Landing Page (L) | Frontend Web App (C) | Testing (C) |
 | Toro Turpo, Ronal | [pendiente] | Backend Services (L) | Testing (C) | Deployment (C) |
-| Montalvo Vásquez, Bruno Rodrigo | [pendiente] | Frontend Web App (L) | Landing Page (C) | Documentation (C) |
+| Montalvo Vásquez, Bruno Rodrigo | TartaroZ | Frontend Web App (L) | Landing Page (C) | Documentation (C) |
 | Fernandez Garfias, Alexander Piero | Dostoyevsk1 | UX/UI (L) | Landing Page (C) | Collaboration (C) |
 | Integrante 5 | [pendiente] | Testing (L) | Backend Services (C) | Trello Management (C) |
 
