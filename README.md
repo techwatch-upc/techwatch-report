@@ -1359,7 +1359,7 @@ Se registró el progreso del *Sprint 1* con *commits* en el repositorio de la *L
 
 Evidencia de ejecución (capturas de la Landing Page):
 
-![Evidencia 1 - Landing Page](assets/images/5215img1.png)
+![Evidencia 1 - Landing Page](assets/images/5215img.png)
 ![Evidencia 2 - Navbar](assets/images/5215img2.png)
 ![Evidencia 3 - Footer](assets/images/5215img3.png)
 ![Evidencia 4 - Sección principal](assets/images/5215img4.png)
