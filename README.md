@@ -1362,7 +1362,7 @@ Figma Prototype:
 
 En esta sección se presenta el resultado del Design-Level Event Storming realizado como continuación del Big Picture Event Storming previamente elaborado. El objetivo fue profundizar en los procesos más relevantes del dominio de TechWatch, identificando para cada flujo los Commands, Read Models, Policies y Aggregates necesarios para modelar el comportamiento del sistema con mayor detalle.
 
-La sesión se organizó en torno a los Bounded Contexts identificados dentro de la plataforma: Device Management, Analytics, Payment, IAM y Profile. Estos contextos permiten estructurar funcionalidades relacionadas con gestión y control de dispositivos inteligentes, análisis de consumo energético, autenticación, perfil de usuario y suscripciones premium.
+La sesión se organizó en torno a los Bounded Contexts identificados dentro de la plataforma: **Device Management**, **Analytics**, **Payment**, **IAM** y **Profile**. Estos contextos permiten estructurar funcionalidades relacionadas con gestión y control de dispositivos inteligentes, análisis de consumo energético, autenticación, perfil de usuario y suscripciones premium.
 
 A partir de este ejercicio se establecieron las bases para la definición de la arquitectura de software y de los principales flujos orientados al monitoreo, control inteligente y optimización energética del hogar, incluyendo los diagramas de contexto, contenedores y componentes presentados en las secciones siguientes.
 
@@ -1505,42 +1505,66 @@ UserProfile representa el perfil del usuario utilizando Value Objects como Profi
 
 ## 4.8. Database Design
 
-En esta sección se presenta el diseño de base de datos de TechWatch, organizado por Bounded Context siguiendo los principios de Domain-Driven Design. Cada diagrama representa el esquema de tablas correspondiente a un contexto delimitado, incluyendo sus columnas, tipos de dato, restricciones y relaciones mediante claves foráneas. Las tablas pertenecientes a otros Bounded Contexts que son referenciadas se incluyen en cada diagrama de forma diferenciada visualmente, indicando su origen externo. El motor de base de datos utilizado es PostgreSQL 18.
+En esta sección se presenta el diseño de base de datos de TechWatch, organizado por Bounded Context siguiendo los principios de Domain-Driven Design. Cada diagrama representa el esquema de tablas correspondiente a un contexto delimitado, incluyendo columnas, tipos de dato, restricciones y relaciones mediante claves foráneas.
+
+Asimismo, el diseño considera la separación lógica entre **Device Management**, **Analytics**, **Payment**, **IAM** y **Profile**, manteniendo coherencia con la arquitectura del dominio y el Design-Level Event Storming realizado previamente.
+
 
 ### 4.8.1. Database Diagrams
 
-A continuación se presentan los diagramas de base de datos para cada uno de los cuatro Bounded Contexts identificados en TechWatch: Device Management, I am, Profile, Analytics y Subscriptions. Los diagramas fueron elaborados en Vertabelo (producto adquirido por Red Gate) y reflejan directamente el modelo de dominio definido en los diagramas de clases, aplicando las convenciones de mapeo objeto-relacional propias de Spring Data JPA. Los Value Objects han sido aplanados como columnas dentro de la tabla de su entidad padre, y las enumeraciones se representan como columnas de tipo VARCHAR.
+A continuación se presentan los diagramas de base de datos para cada uno de los Bounded Contexts identificados en TechWatch: Device Management, Analytics, Payment, IAM y Profile. Los diagramas fueron elaborados utilizando Vertabelo y reflejan directamente el modelo de dominio definido previamente en los diagramas de clases.
 
 
-**Device Management**
+#### Device Management
 
-El diagrama de Device Management contiene cuatro tablas propias. La tabla users almacena la información de los usuarios registrados en la plataforma. La tabla properties representa los inmuebles registrados por cada usuario, con una relación de muchos a uno hacia users. La tabla spaces representa los espacios o ambientes dentro de cada inmueble, con una relación de muchos a uno hacia properties. Finalmente la tabla devices representa los dispositivos registrados en cada espacio, con una relación de muchos a uno hacia spaces. La cadena de relaciones refleja la jerarquía natural del dominio: un usuario tiene propiedades, cada propiedad tiene espacios y cada espacio tiene dispositivos.
+El diagrama de Device Management contiene las tablas principales relacionadas con la gestión y control de dispositivos inteligentes dentro del hogar. La tabla users representa los usuarios registrados en la plataforma y actúa como referencia para distintos contextos del sistema.
 
-![Device Management ERD](./assets/images/device-management-erd.png)
+La tabla properties almacena los inmuebles registrados por cada usuario, manteniendo una relación muchos a uno hacia users. La tabla spaces representa los ambientes o espacios dentro de cada inmueble, con una relación muchos a uno hacia properties. Finalmente, la tabla devices almacena los dispositivos inteligentes registrados dentro de cada espacio, manteniendo relaciones hacia spaces y properties.
 
-**I am**
+La estructura refleja la jerarquía natural del dominio: un usuario posee propiedades, cada propiedad contiene espacios y cada espacio administra múltiples dispositivos inteligentes.
 
-El diagrama de Simulation contiene tres tablas propias y tres tablas externas del Bounded Context Device Management. La tabla simulation_sessions registra cada sesión de uso simulado iniciada por un usuario para un inmueble específico, con referencias externas hacia users y properties. La tabla device_actions registra cada acción ejecutada sobre un dispositivo durante una sesión activa, con referencias hacia simulation_sessions y la tabla externa devices. La tabla usage_data almacena los datos de consumo generados por cada interacción con un dispositivo durante la sesión, con referencias hacia simulation_sessions y devices.
+![Device Management ERD](./assets/images/chapter-4-8-1-img1.png)
 
-![Simulation ERD](./assets/images/simulation-erd.png)
+#### Analytics
 
-**Profile**
+El diagrama de Analytics contiene las tablas relacionadas con métricas, reportes y alertas de consumo energético. La tabla metrics almacena valores calculados a partir del comportamiento de los dispositivos inteligentes, referenciando externamente tablas como devices y properties pertenecientes al contexto Device Management.
 
-El diagrama de Simulation contiene tres tablas propias y tres tablas externas del Bounded Context Device Management. La tabla simulation_sessions registra cada sesión de uso simulado iniciada por un usuario para un inmueble específico, con referencias externas hacia users y properties. La tabla device_actions registra cada acción ejecutada sobre un dispositivo durante una sesión activa, con referencias hacia simulation_sessions y la tabla externa devices. La tabla usage_data almacena los datos de consumo generados por cada interacción con un dispositivo durante la sesión, con referencias hacia simulation_sessions y devices.
+La tabla consumption_reports representa reportes generados para períodos específicos, asociados tanto a propiedades como usuarios. La tabla report_items detalla información individual de consumo por dispositivo dentro de cada reporte generado. Asimismo, la tabla consumption_alerts almacena alertas automáticas generadas cuando determinadas métricas superan umbrales definidos por el sistema.
 
-![Simulation ERD](./assets/images/simulation-erd.png)
+Este contexto permite almacenar y procesar información orientada al monitoreo energético y generación de insights relacionados con optimización del consumo.
 
-**Analytics**
+![Analytics ERD](./assets/images/chapter-4-8-1-img2.png)
 
-El diagrama de Analytics contiene cuatro tablas propias y tres tablas externas del Bounded Context Device Management. La tabla metrics almacena los valores calculados a partir de los datos de uso, referenciando externamente a devices y properties. La tabla consumption_reports representa los reportes de consumo generados para un período determinado, con referencias externas hacia properties y users. La tabla report_items detalla el consumo por dispositivo dentro de cada reporte, con referencias hacia consumption_reports y la tabla externa devices. La tabla consumption_alerts almacena las alertas disparadas automáticamente cuando el consumo supera un umbral definido, referenciando externamente a devices, properties y users.
 
-![Analytics ERD](./assets/images/analytics-erd.png)
+#### Payment
 
-**Subscriptions**
+El diagrama de Payment contiene las tablas relacionadas con suscripciones, planes y transacciones de pago. La tabla plans almacena los distintos planes de suscripción disponibles dentro de la plataforma, incluyendo características y precios derivados de los Value Objects del dominio.
 
-El diagrama de Subscriptions contiene tres tablas propias y una tabla externa del Bounded Context Device Management. La tabla plans almacena los planes de suscripción disponibles en la plataforma, con sus características y precio representados como columnas aplanadas desde los Value Objects PlanFeatures y Money respectivamente. La tabla subscriptions representa la suscripción activa de cada usuario a un plan determinado, con referencias hacia users como tabla externa y hacia plans. La tabla payments registra cada transacción de pago asociada a una suscripción, con referencia hacia subscriptions.
+La tabla subscriptions representa la suscripción activa de cada usuario hacia un plan específico, manteniendo referencias hacia users y plans. Finalmente, la tabla payments almacena las transacciones de pago realizadas dentro del sistema, asociadas directamente a una suscripción.
 
-![Subscriptions ERD](./assets/images/subscriptions-erd.png)
+Este contexto permite administrar funcionalidades premium y procesar pagos mediante integración con servicios externos especializados.
+
+![Payment ERD](./assets/images/chapter-4-8-1-img3.png)
+
+
+#### IAM
+
+El diagrama de IAM (Identity and Access Management) contiene las tablas relacionadas con autenticación, autorización y control de acceso dentro de la plataforma. La tabla user_credentials almacena información relacionada con credenciales, autenticación y validación de acceso, utilizando referencias hacia users como entidad principal del sistema.
+
+Asimismo, este contexto administra tokens, roles y mecanismos de autenticación utilizados para proteger los distintos módulos de TechWatch mediante JWT y OAuth 2.0.
+
+![IAM ERD](./assets/images/chapter-4-8-1-img4.png)
+
+
+#### Profile
+
+El diagrama de Profile contiene las tablas relacionadas con la información personal y preferencias de usuario dentro de la plataforma. La tabla user_profiles almacena configuraciones, preferencias y datos personalizados asociados a cada usuario registrado.
+
+Este contexto permite administrar personalización de experiencia, configuraciones de cuenta e información complementaria relacionada con el perfil del usuario dentro de TechWatch.
+
+![Profile ERD](./assets/images/chapter-4-8-1-img4.png)
+
+
 
 ---
 
@@ -1552,39 +1576,39 @@ El diagrama de Subscriptions contiene tres tablas propias y una tabla externa de
 
 #### Project Management
 
-Para la gestión del proyecto utilizamos herramientas de comunicación, coordinación y seguimiento que nos permiten trabajar de forma colaborativa entre los 5 integrantes:
+Para la gestión del proyecto utilizamos distintas herramientas de comunicación, coordinación y seguimiento que nos permitieron trabajar de forma colaborativa entre los cinco integrantes del equipo.
 
-- **WhatsApp:** canal principal de comunicación diaria para coordinar tareas, resolver dudas y compartir avances.
-- **Google Meet:** reuniones sincrónicas para Sprint Planning, seguimiento y retrospectivas.
-- **Google Drive:** documentación colaborativa del informe, con historial de cambios y edición compartida.
-- **Trello:** gestión del Sprint Backlog y seguimiento de tareas por estado (To-Do, In-Process, Review, Done).
-- **GitHub:** gestión de repositorios, branches, pull requests y control de versiones.
+Como principal medio de comunicación utilizamos WhatsApp, mediante un grupo donde coordinamos tareas, resolvimos dudas y compartimos avances relacionados con el desarrollo del proyecto y del informe. Asimismo, empleamos Google Meet para realizar reuniones sincrónicas relacionadas con Sprint Planning, seguimiento de actividades y revisión de avances.
+
+Para la documentación colaborativa utilizamos Google Drive, permitiendo trabajar simultáneamente sobre el informe y mantener un historial de cambios compartido entre los integrantes. Por otro lado, utilizamos Trello para gestionar el Sprint Backlog y organizar tareas mediante estados como To-Do, In-Process, Review y Done.
+
+Finalmente, GitHub fue utilizado para el control de versiones, manejo de repositorios, branches, pull requests y seguimiento de cambios realizados durante el desarrollo de la Landing Page y de la Web Application.
 
 #### Requirements Management
 
-Los requerimientos funcionales y no funcionales se registran como User Stories en el Product Backlog del equipo. Para su gestión usamos Trello, donde priorizamos las historias según valor de negocio y complejidad técnica. La definición y refinamiento de historias se realiza de forma grupal.
+Los requerimientos funcionales y no funcionales fueron registrados como User Stories dentro del Product Backlog del proyecto. Para su gestión utilizamos Trello, donde las historias fueron organizadas y priorizadas según valor de negocio y complejidad técnica.
+
+La definición y refinamiento de historias de usuario se realizó de manera colaborativa entre todos los integrantes del equipo, discutiendo las principales funcionalidades relacionadas con monitoreo de dispositivos inteligentes, análisis energético y control del hogar.
 
 #### Product UX/UI Design
 
-Para la definición de experiencia de usuario y diseño de interfaces usamos:
+Para la elaboración de productos relacionados con experiencia de usuario utilizamos UXPressia, herramienta con la que desarrollamos User Persona, Empathy Map, User Journey Map e Impact Mapping. Estos artefactos permitieron comprender mejor las necesidades y comportamientos de los segmentos objetivo definidos para TechWatch.
 
-- **UXPressia:** elaboración de User Persona, Empathy Map, User Journey Map e Impact Mapping.
-- **Figma:** diseño de wireframes, mockups y prototipos de la Landing Page y de la Web Application.
+Por otro lado, utilizamos Figma para el diseño de wireframes, mockups y prototipos interactivos tanto de la Landing Page como de la Web Application. Esta herramienta permitió definir previamente la estructura visual y experiencia de usuario antes de iniciar el desarrollo de la aplicación.
 
 #### Software Development
 
-Como entorno de desarrollo principal usamos **Visual Studio Code**, por su flexibilidad y soporte para múltiples tecnologías.  
-El stack de tecnologías usado y planificado en el proyecto es:
+Como entornos principales de desarrollo utilizamos Visual Studio Code y WebStorm de JetBrains, debido a su flexibilidad, soporte para múltiples tecnologías y facilidad de integración con GitHub.
 
-- **Landing Page:** HTML, CSS y JavaScript.
-- **Frontend Web Application:** Angular con TypeScript.
-- **Backend Web Services:** Java.
+La Landing Page fue desarrollada utilizando HTML, CSS y JavaScript, mientras que la Web Application fue desarrollada utilizando Angular y TypeScript bajo una arquitectura basada en Domain-Driven Design y separación por Bounded Contexts.
 
-Además, usamos integración con GitHub desde el IDE para mantener trazabilidad de cambios por integrante y por rama.
+Asimismo, GitHub permitió mantener trazabilidad de cambios por integrante y por rama, facilitando el trabajo colaborativo mediante pull requests y control de versiones.
 
 #### Software Testing
 
-Para las pruebas de aceptación utilizamos **Gherkin** (Given-When-Then), permitiendo describir escenarios en lenguaje natural y validar criterios de aceptación de las User Stories. Este enfoque facilita la comunicación entre miembros técnicos y no técnicos, y mejora la calidad del software desde etapas tempranas.
+Para las pruebas de aceptación utilizamos escenarios escritos en Gherkin (Given-When-Then), permitiendo describir criterios de aceptación mediante lenguaje natural y validar el comportamiento esperado de las User Stories.
+
+Este enfoque facilitó la comunicación entre integrantes técnicos y no técnicos, permitiendo validar funcionalidades relacionadas con autenticación, monitoreo de dispositivos, control inteligente y análisis energético desde etapas tempranas del desarrollo.
 
 ### 5.1.2. Source Code Management
 
