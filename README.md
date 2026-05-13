@@ -1360,7 +1360,11 @@ Figma Prototype:
 
 ### 4.6.1. Design-Level Event Storming
 
-En esta sección se presenta el resultado del Design-Level Event Storming realizado como continuación del Big Picture Event Storming previamente elaborado. El objetivo fue profundizar en los flujos más relevantes del dominio de TechWatch, identificando para cada proceso los Commands, Read Models, Policies y Aggregates que permiten modelar el comportamiento del sistema con mayor detalle. La sesión se organizó en torno a cuatro Bounded Contexts identificados: Device Management, Analytics, I am, Profile y Subscriptions. A partir de este ejercicio se establecieron las bases para la definición de la arquitectura de software, incluyendo los diagramas de contexto, contenedores y componentes que se presentan en las secciones siguientes.
+En esta sección se presenta el resultado del Design-Level Event Storming realizado como continuación del Big Picture Event Storming previamente elaborado. El objetivo fue profundizar en los procesos más relevantes del dominio de TechWatch, identificando para cada flujo los Commands, Read Models, Policies y Aggregates necesarios para modelar el comportamiento del sistema con mayor detalle.
+
+La sesión se organizó en torno a los Bounded Contexts identificados dentro de la plataforma: Device Management, Analytics, Payment, IAM y Profile. Estos contextos permiten estructurar funcionalidades relacionadas con gestión y control de dispositivos inteligentes, análisis de consumo energético, autenticación, perfil de usuario y suscripciones premium.
+
+A partir de este ejercicio se establecieron las bases para la definición de la arquitectura de software y de los principales flujos orientados al monitoreo, control inteligente y optimización energética del hogar, incluyendo los diagramas de contexto, contenedores y componentes presentados en las secciones siguientes.
 
 ![Design-Level Event Storming](./assets/images/design-level-event-storming.png)
 
@@ -1425,23 +1429,6 @@ La RESTful API organiza sus componentes en cuatro Bounded Contexts. Device Manag
 ![Component API Subscriptions Key](./assets/images/c4-components-api-subscription-key.png)
 
 ![API Subscriptions Diagram](./assets/images/component-diagram-api-subscription.png)
-
-**Landing Page Component Diagram**
-
-El Landing Page se compone de un NavBar y cinco secciones de contenido: HeroSection, FeaturesSection, PricingSection, AboutSection y ContactSection. El NavBar permite la navegación entre secciones. La HeroSection es el punto de entrada principal para ambos segmentos objetivo y contiene el call-to-action que redirige al usuario hacia la Web Application.
-
-![Component Landing Page Key](./assets/images/c4-components-landing-page-key.png)
-
-![Landing Page Component Diagram](./assets/images/component-diagram-landing-page.png)
-
-
-**Remote Control App Component Diagram**
-
-La Remote Control App tiene una estructura más compacta orientada al uso móvil. Las vistas HomeView, DeviceControlView y SessionView cubren los flujos principales de simulación. Todas las operaciones de control de dispositivos y gestión de sesiones son delegadas al SimulationService, que consume los endpoints correspondientes de la RESTful API. El AuthService gestiona la autenticación del usuario de forma independiente al de la Web Application.
-
-![Component Remote App Key](./assets/images/c4-components-remote-app-key.png)
-
-![Remote App Component Diagram](./assets/images/component-diagram-remote-api.png)
 
 **Web App Component Diagram**
 
