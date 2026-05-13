@@ -1429,53 +1429,26 @@ La organización interna de la RESTful API sigue los Bounded Contexts identifica
 Asimismo, la arquitectura interna de cada Bounded Context sigue los principios de Domain-Driven Design y Clean Architecture, separando responsabilidades en capas Presentation, Application, Domain e Infrastructure. Los contenedores frontend siguen una arquitectura basada en la separación entre vistas y servicios, característica del framework Angular.
 
 
+**Device Management Component Diagram**
 
-**API Component General Diagram**
+![Device Management Component](./assets/images/chapter-4-6-4-img1.png)
 
-La RESTful API organiza sus componentes en cuatro Bounded Contexts. Device Management expone los controladores PropertyController y DeviceController, cada uno con su Service y Repository correspondiente. I am(Identity and access management) gestiona la autenticación y autorización de usuarios mediante AuthService; este contexto se integra con el proveedor externo de autenticación utilizando OAuth 2.0 y JWT para garantizar un acceso seguro a la plataforma; además, administra el inicio de sesión y registro. Profile administra la información personal y preferencias de los usuarios mediante ProfileController, ProfileService y ProfileRepository; este contexto permite actualizar datos de perfil, gestionar configuraciones de cuenta y personalizar la experiencia del usuario dentro de la plataforma. Analytics procesa las métricas mediante el AnalyticsService y genera reportes a través del ReportService. Subscriptions gestiona los planes del usuario mediante el SubscriptionService, que delega el procesamiento de pagos al PaymentComponent para su integración con el servicio externo. El AuthComponent es transversal a todos los Bounded Contexts y gestiona la autenticación mediante JWT.
 
-![Component API General Key](./assets/images/c4-components-api-general-key.png)
+**Analytics Component Diagram**
 
-![API Component Diagram](./assets/images/component-diagram-api.png)
+![Analytics Component](./assets/images/chapter-4-6-4-img2.png)
 
-**API Analytics Diagram**
+**Payment Component Diagram**
 
-![Component API Analytics Key](./assets/images/c4-components-api-analytics-key.png)
+![Payment Component](./assets/images/chapter-4-6-4-img3.png)
 
-![API Analytics Diagram](./assets/images/component-diagram-api-analytics.png)
+**Iam Component Diagram**
 
-**API Device Management Diagram**
+![Iam Component](./assets/images/chapter-4-6-4-img4.png)
 
-![Component API Device Management Key](./assets/images/c4-components-api-device-management-key.png)
+**Profile Component Diagram**
 
-![API Device Management Diagram](./assets/images/component-diagram-api-device-management.png)
-
-**API I am Diagram**
-
-![Component API Simulation Key](./assets/images/c4-components-api-simulation-key.png)
-
-![API Simulation Diagram](./assets/images/component-diagram-api-simulation.png)
-
-**API Profile Diagram**
-
-![Component API Simulation Key](./assets/images/c4-components-api-simulation-key.png)
-
-![API Simulation Diagram](./assets/images/component-diagram-api-simulation.png)
-
-**API Subscriptions Diagram**
-
-![Component API Subscriptions Key](./assets/images/c4-components-api-subscription-key.png)
-
-![API Subscriptions Diagram](./assets/images/component-diagram-api-subscription.png)
-
-**Web App Component Diagram**
-
-La Web Application sigue una arquitectura de separación entre vistas y servicios. Las vistas DashboardView, PropertyView, DeviceView, ReportsView y SubscriptionView representan las pantallas principales de la aplicación, cada una delegando sus operaciones a su servicio correspondiente. Los servicios PropertyService, DeviceService, AnalyticsService y SubscriptionService consumen los endpoints de la RESTful API via HTTPS/JSON. El AuthService gestiona la autenticación del usuario y el almacenamiento del token JWT.
-
-![Component Web App Key](./assets/images/c4-components-web-app-key.png)
-
-![Web App Component Diagram](./assets/images/component-diagram-webapp.png)
-
+![Profile Component](./assets/images/chapter-4-6-4-img4.png)
 
 
 ## 4.7. Software Object-Oriented Design
