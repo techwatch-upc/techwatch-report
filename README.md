@@ -266,7 +266,7 @@ Frente a esta problemática, TechWatch desarrolla una plataforma web orientada a
 
 **Visión:** Ser la plataforma de referencia en gestión de Smart Homes en Latinoamérica, democratizando el acceso a la domótica inteligente para todo tipo de inmueble. 
 
-### 1.1.2. Perfiles de integrantes del equipo
+## 1.1.2. Perfiles de integrantes del equipo
 
 | Foto                                             | Nombres y Apellidos            | Código     | Carrera | Conocimientos y habilidades                                                     |
 |--------------------------------------------------|--------------------------------|------------|---------|---------------------------------------------------------------------------------|
@@ -355,16 +355,43 @@ Creemos que incorporar alertas y reportes inteligentes sobre consumo energético
 
 ## 1.3. Segmentos objetivo
 
-**Segmento 1: Propietarios de casas**
+### Segmento 1: Propietarios de casas
 
-Personas entre 30 y 55 años, propietarios de viviendas independientes ubicadas principalmente en zonas urbanas del Perú. Pertenecen a un nivel socioeconómico medio-alto, dado que la adquisición e instalación de dispositivos inteligentes representa una inversión considerable. Tienen un perfil tecnológico intermedio-alto, es decir se desenvuelven con comodidad en entornos digitales y utilizan smartphones y aplicaciones web de forma cotidiana, aunque no necesariamente tienen conocimientos técnicos avanzados en IoT. Gestionan una mayor cantidad y variedad de dispositivos domésticos debido a las dimensiones del inmueble, lo que hace que la necesidad de una plataforma centralizada de monitoreo sea más evidente en este segmento. Según el Organismo Supervisor de Inversión Privada en Telecomunicaciones (Ospitel), en hogares cuyo jefe de familia tiene entre 36 y 45 años, la penetración de internet alcanza el 95,8%, lo que evidencia una base tecnológica sólida en el rango etario de este segmento.
+Para delimitar este segmento objetivo, consideramos a personas entre 30 y 55 años, propietarias de viviendas independientes ubicadas principalmente en zonas urbanas del Perú. Este grupo pertenece a un nivel socioeconómico medio-alto, ya que la adquisición e instalación de dispositivos inteligentes representa una inversión considerable. Asimismo, poseen un perfil tecnológico intermedio-alto, utilizando smartphones y aplicaciones web de forma cotidiana, aunque sin requerir conocimientos avanzados en IoT.
 
-**Segmento 2: Arrendatarios y propietarios de departamentos**
+Debido al mayor tamaño del inmueble, estos usuarios gestionan una mayor cantidad y variedad de dispositivos domésticos, por lo que la necesidad de una plataforma centralizada de monitoreo y análisis resulta más relevante. Según Osiptel, en hogares cuyo jefe de familia tiene entre 36 y 45 años, la penetración de internet alcanza el 95,8%, lo que evidencia una sólida adopción tecnológica dentro de este rango etario.
 
-Personas entre 22 y 40 años, residentes de departamentos en zonas urbanas, ya sea como propietarios o arrendatarios, pertenecen a un nivel socioeconómico medio a medio-alto. Son usuarios con mayor afinidad tecnológica, early adopters de soluciones digitales para el hogar, y valoran especialmente la accesibilidad y la experiencia móvil. Según el INEI, durante el segundo trimestre de 2024, el 90% de la población que usó internet en el Perú lo hizo a través del celular, cifra que en Lima Metropolitana asciende al 93,2%, lo que sustenta la relevancia de una experiencia optimizada para dispositivos en comparación con el segmento anterior. Aunque getionan un número menor de dispositivos en comparación con el segmento anterior, tienen un interés activo en optimizar el uso de su espacio y reducir costos de consumo energético. La naturaleza más compacta del inmueble hace que los insights y métricas sean especialmente relevantes para este segmento. 
+**Segmento Objetivo: Propietarios de casas**  
 
-Ambos segmentos se enmarcan en un contexto regional favorable: el mercado de Smart Homes en Latinoamérica alcanzará los USD 3.44 mil millones en 2025 y crecerá a un CAGR del 11% hasta USD 5.80 mil millones en 2030, lo que refleja una demanda creciente por soluciones de gestión del hogar inteligente accesibles y centradas en el usuario.
+| Característica | Descripción |
+|---|---|
+| Edad | 30 – 55 años |
+| Ubicación | Zonas urbanas del Perú |
+| Sexo | Masculino y Femenino |
+| Nivel socioeconómico | Medio – Alto |
+| Perfil tecnológico | Intermedio – Alto |
+| Dispositivos utilizados | Smartphones y dispositivos IoT |
+| Objetivo principal | Monitorear y optimizar el consumo energético del hogar |
 
+### Segmento 2: Arrendatarios y propietarios de departamentos
+
+Para este segmento se consideró a personas entre 22 y 40 años, residentes de departamentos en zonas urbanas, ya sea como propietarios o arrendatarios. Pertenecen a un nivel socioeconómico medio a medio-alto y presentan una mayor afinidad tecnológica, siendo early adopters de soluciones digitales para el hogar. Además, valoran especialmente la accesibilidad y la experiencia móvil.
+
+Según el INEI, durante el segundo trimestre de 2024, el 90% de la población que utilizó internet en el Perú lo hizo mediante teléfonos móviles, cifra que en Lima Metropolitana asciende al 93,2%. Esto sustenta la relevancia de una experiencia optimizada para smartphones dentro de este segmento.
+
+Aunque gestionan una menor cantidad de dispositivos en comparación con el segmento anterior, tienen un interés activo en optimizar espacios y reducir costos de consumo energético, haciendo especialmente relevantes los dashboards e insights ofrecidos por la plataforma.
+
+**Segmento Objetivo: Arrendatarios y propietarios de departamentos**  
+
+| Característica | Descripción |
+|---|---|
+| Edad | 22 – 40 años |
+| Ubicación | Zonas urbanas del Perú |
+| Sexo | Masculino y Femenino |
+| Nivel socioeconómico | Medio – Medio Alto |
+| Perfil tecnológico | Alto / Early adopters |
+| Dispositivos utilizados | Smartphones y dispositivos inteligentes |
+| Objetivo principal | Reducir costos energéticos y optimizar el uso del hogar |
 ---
 
 # Capítulo II: Requirements Elicitation & Analysis
@@ -424,6 +451,7 @@ Ambos segmentos se enmarcan en un contexto regional favorable: el mercado de Sma
 ### 2.2.1. Diseño de entrevistas
 
 **Preguntas para ambos segmentos:**
+
 1. ¿Cuántos años tienes y a qué te dedicas actualmente?
 
 2. ¿Qué dispositivos tecnológicos usas con mayor frecuencia en tu día a día?
@@ -672,25 +700,29 @@ El diagrama refleja cuatro flujos principales en el dominio de TechWatch. El pri
 
 ## 2.5. Ubiquitous Language
 
-El siguiente glosario reúne los términos y conceptos clave del dominio de negocio de TechWatch, definidos de forma clara y sin ambigüedad para garantizar una comunicación efectiva entre todos los miembros del equipo y stakeholders del proyecto. Los términos se presentan en inglés, que es el idioma base del sistema, con su equivalente en español entre paréntesis cuando aplica. Este glosario se irá expandiendo a medida que el proyecto evolucione y nuevos conceptos del dominio sean identificados.
-
+El siguiente glosario reúne los términos y conceptos clave del dominio de negocio de TechWatch, definidos de forma clara y sin ambigüedad para garantizar una comunicación efectiva entre todos los miembros del equipo y stakeholders del proyecto. Los términos se presentan en inglés, que es el idioma base del sistema, con su equivalente en español entre paréntesis cuando aplica. Este lenguaje ubicuo permite mantener consistencia entre las distintas áreas funcionales de la plataforma, como la gestión de dispositivos, analítica, suscripciones y control de acceso. El glosario se irá expandiendo a medida que el proyecto evolucione y nuevos conceptos del dominio sean identificados.
 | Término | Definición |
-|---------|------------|
-| **Smart Home** (Hogar inteligente) | Inmueble residencial equipado con dispositivos conectados que pueden ser monitoreados y controlados de forma centralizada. |
-| **Property** (Inmueble) | Unidad residencial registrada en la plataforma, puede ser una casa o departamento, compuesta por uno o más espacios. |
-| **Space** (Espacio) | Ambiente o habitación dentro de un inmueble, como sala, dormitorio o cocina, al que se asocian dispositivos. |
-| **Device** (Dispositivo) | Elemento doméstico inteligente registrado dentro de un espacio, cuyo comportamiento y consumo puede ser monitoreado. |
-| **Simulation Session** (Sesión de simulación) | Período durante el cual el usuario interactúa con sus dispositivos desde el control remoto, generando datos de uso. |
-| **Usage Data** (Datos de uso) | Información generada durante una sesión de simulación que refleja el comportamiento y consumo de los dispositivos. |
-| **Metric** (Métrica) | Valor calculado a partir de los datos de uso que permite cuantificar el comportamiento o consumo de un dispositivo o espacio. |
-| **Insight** | Conclusión o hallazgo relevante derivado del análisis de métricas, orientado a apoyar la toma de decisiones del usuario. |
-| **Dashboard** | Vista centralizada e interactiva que presenta las métricas e insights del inmueble y sus dispositivos de forma visual. |
-| **Consumption Report** (Reporte de consumo) | Documento generado por el sistema que resume el comportamiento y consumo de los dispositivos en un período determinado. |
-| **Consumption Alert** (Alerta de consumo) | Notificación automática disparada por el sistema cuando el consumo de un dispositivo o espacio supera un umbral definido. |
-| **Subscription Plan** (Plan de suscripción) | Modalidad de acceso a la plataforma que determina las funcionalidades disponibles para el usuario, con opciones gratuitas y de pago. |
-| **Remote Control** (Control remoto) | Aplicación web responsive que permite al usuario simular la operación de sus dispositivos desde un dispositivo móvil. |
-| **Freemium** | Modelo de negocio que ofrece acceso gratuito con funcionalidades limitadas y planes de pago con funcionalidades extendidas. |
-
+|---|---|
+| Smart Home (Hogar inteligente) | Inmueble residencial equipado con dispositivos conectados que pueden ser monitoreados y controlados de forma centralizada. |
+| Property (Inmueble) | Unidad residencial registrada en la plataforma, puede ser una casa o departamento, compuesta por uno o más espacios. |
+| Space (Espacio) | Ambiente o habitación dentro de un inmueble, como sala, dormitorio o cocina, al que se asocian dispositivos. |
+| Device (Dispositivo) | Elemento doméstico inteligente registrado dentro de un espacio, cuyo comportamiento, estado y consumo puede ser monitoreado y controlado. |
+| Device Status (Estado del dispositivo) | Condición actual de funcionamiento de un dispositivo inteligente, como activo, inactivo o en espera. |
+| Monitoring Session (Sesión de monitoreo) | Período durante el cual el sistema recopila información sobre el comportamiento y consumo de los dispositivos registrados. |
+| Remote Control (Control remoto) | Funcionalidad que permite al usuario operar y controlar dispositivos inteligentes desde la plataforma mediante una interfaz web responsive. |
+| Usage Data (Datos de uso) | Información generada por la interacción y funcionamiento de los dispositivos inteligentes dentro del hogar. |
+| Metric (Métrica) | Valor calculado a partir de los datos de uso que permite cuantificar el comportamiento o consumo de un dispositivo o espacio. |
+| Energy Consumption (Consumo energético) | Cantidad de energía utilizada por uno o más dispositivos durante un período determinado. |
+| Insight | Hallazgo relevante derivado del análisis de métricas y datos de uso, orientado a apoyar la toma de decisiones del usuario. |
+| Dashboard | Vista centralizada e interactiva que presenta métricas, estados e insights relacionados con el inmueble y sus dispositivos. |
+| Consumption Report (Reporte de consumo) | Documento generado por el sistema que resume el comportamiento y consumo de los dispositivos en un período determinado. |
+| Consumption Alert (Alerta de consumo) | Notificación automática generada cuando el consumo de un dispositivo o espacio supera un umbral establecido. |
+| User Profile (Perfil de usuario) | Información personal, preferencias y configuración asociada a la cuenta del usuario dentro de la plataforma. |
+| Authentication (Autenticación) | Proceso mediante el cual un usuario valida su identidad para acceder a la plataforma. |
+| Access Role (Rol de acceso) | Nivel de permisos asignado a un usuario dentro de la plataforma. |
+| Subscription Plan (Plan de suscripción) | Modalidad de acceso a la plataforma que determina las funcionalidades disponibles para el usuario, incluyendo opciones gratuitas y premium. |
+| Subscription (Suscripción) | Registro activo asociado a un plan premium dentro de la plataforma. |
+| Freemium | Modelo de negocio que ofrece acceso gratuito con funcionalidades limitadas y planes de pago con funcionalidades extendidas. |
 ---
 
 # Capítulo III: Requirements Specification
