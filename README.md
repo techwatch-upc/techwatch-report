@@ -7,53 +7,50 @@
 <h3 align="center">Carrera de Ingeniería de Software</h3>
 <h3 align="center">Ciclo 2026-10</h3>
 
----
+<h3 align="center">Desarrollo de Aplicaciones Open Source </h3>
+<h3 align="center">NRC : 11896</h3>
+<h3 align="center">Nombre del Profesor: Efraín Ricardo Bautista Ubillús</h3>
 
-**Código y Nombre del Curso:** 1ASI0729 – Desarrollo de Aplicaciones Open Source
-
-**NRC:** 11896
-
-**Nombre del Profesor:** Efraín Ricardo Bautista Ubillús
 
 ---
 
-# Informe de Trabajo Final
+<h1 align="center">Informe de Trabajo Final</h1>
 
-**Nombre del Startup:** TechWatch
+<h2 align="center">TechWatch</h2>
+<h2 align="center">IntelliHome</h2>
 
-**Nombre del Producto:** IntelliHome
 
----
 
-## Relación de Integrantes
+<h3 align="center">Integrantes</h3>
 
-| Código     | Apellidos y Nombres             |
-|------------|---------------------------------|
-| U202310877 | Alva Abanto, Luis Andrés        |
-| U20241E367 | Toro Turpo, Ronal               |
+<div align="center">
+
+| Código     | Apellidos y Nombres |
+|------------|---------------------|
+| U202310877 | Alva Abanto, Luis Andrés |
+| U20241E367 | Toro Turpo, Ronal |
 | U202019498 | Fernandez Garfias, Alexander Piero |
 | U202111529 | Montalvo Vásquez, Bruno Rodrigo |
-| U20221b756 | Becerra Durand, Sebastian Uriel           |
+| U20221B756 | Becerra Durand, Sebastian Uriel |
+
+</div>
+
+<h3 align="center">Año : 2026</h3>
 
 ---
+<h2 align="center">Registro de Versiones del Informe</h2>
 
-**Mes y Año:** Abril 2026
 
----
+| Versión | Fecha      | Autor | Descripción de modificación                                                                                                                                                                                                                                                              |
+|---------|------------|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| AV1     | 04-04-2026 | Equipo TechWatch | Creación del informe. Inclusión de Capítulos I, II, III, IV , V y la inclusion del Sprint 1                                                                                                                                                                                              |
+| TB1     | 13-05-2026 | Equipo TechWatch | Actualización del Project Report con la inclusión del Sprint 2 y corrección de observaciones de la entrega anterior relacionadas con hipótesis Lean UX, diagramas, wireflows, Sprint Goal, estadísticas de colaboración, nomenclatura de archivos y visualización de imágenes y enlaces. |
 
-## Registro de Versiones del Informe
+<h2 align="center">Project Report Collaboration Insights</h2>
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|---------|-------|-------|-----------------------------|
-| 1.0 | 2026-04-04 | Equipo TechWatch | Creación del informe. Inclusión de Capítulos I, II, III, IV y V (Sprint 1). |
-| 1.1 | 2026-04-24 | Equipo TechWatch | Actualización del Cap. V: evidencia de *commits* (`tb01`), matriz LACX, *Sprint Backlog* 1 alineado a *User Stories* de *landing*, despliegue (GitHub + Railway), y ajustes en *Student Outcome* y perfiles. |
 
----
-
-## Project Report Collaboration Insights
-
-URL del repositorio del Project Report en GitHub:
-[https://github.com/techwatch-upc/Project-Report](https://github.com/techwatch-upc/Project-Report)
+URL de la organizacion  del Project Report en GitHub:
+[https://github.com/techwatch-upc/Project](https://github.com/upc-pre-202610-1asi0729-11896-techwatch)
 
 ---
 
@@ -204,17 +201,56 @@ URL del repositorio del Project Report en GitHub:
 
 El curso contribuye al cumplimiento del Student Outcome ABET:
 
-**ABET – EAC - Student Outcome 3**  
 **Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-|---------------------|---------------------|--------------|
-| Comunica oralmente con efectividad a diferentes rangos de audiencia. | **Fernandez Garfias, Alexander Piero** — *Sprint 1* <br><br> Sustenté de forma prioritaria la coherencia entre el diseño en Figma (Landing Page) y el prototipo comentado al equipo, participando en dailies y resúmenes de avance. <br><br> **Alva Abanto, Luis Andrés** — *Sprint 1* <br><br> Realicé 4 de las 6 entrevistas a los segmentos objetivo y, en el Sprint 1, coordiné verbalmente criterios de aceptación y dudas de integración frente a la entrega de la landing. <br><br> **Toro Turpo, Ronal** — *Sprint 1* <br><br> Aporté en las reuniones de alineación revisando en voz alta el comportamiento de la navegación, el cajón móvil y el flujo entre secciones. <br><br> **Montalvo Vásquez, Bruno Rodrigo** — *Sprint 1* <br><br> Participé en discusiones sobre estructura de secciones y criterios de prueba antes de cierre de sprint. <br><br> **Becerra Durand, Sebastian Uriel** — *Sprint 1* <br><br> Colaboré en explicar hallazgos de pruebas rápidas de la UI y de enlaces al exponer el estado de la rama. | El equipo sostuvo comunicación oral clara con audiencias distintas: usuarios entrevistados, compañeros y el docente, ajustando el nivel de detalle técnico. Las reuniones de planificación, revisión y cierre de sprint permitieron validar la prioridad de la landing y asegurar criterios compartidos antes de integrar y desplegar. |
-| Comunica por escrito con efectividad a diferentes rangos de audiencia. | **Fernandez Garfias, Alexander Piero** — *Sprint 1* <br><br> Lideré la materialización de la landing y de los entregables visuales en Figma, dejando documentada la jerarquía, componentes y criterios de estilo reutilizados en el informe. Redacté mensajes de *commit* descriptivos y participé en *pull requests* y descripciones de tareas. <br><br> **Alva Abanto, Luis Andrés** — *Sprint 1* <br><br> Escribí historias de usuario, *technical stories*, registro y análisis de entrevistas, y acompañé la trazabilidad de *issues* y ramas hacia el *Product Backlog*. <br><br> **Toro Turpo, Ronal** — *Sprint 1* <br><br> Completé *checklists* en Trello, notas de integración para *scripts* compartidos y comentarios puntuales en repositorio sobre consistencia de rutas. <br><br> **Montalvo Vásquez, Bruno Rodrigo** — *Sprint 1* <br><br> Afiné textos y consistencia de datos en secciones informativas y aporté a la documentación de escenarios *BDD*. <br><br> **Becerra Durand, Sebastian Uriel** — *Sprint 1* <br><br> Dejé registradas observaciones de pruebas (enlaces, formularios, cambio de idioma) y acuerdos de calidad mínima antes de *merge* a rama principal. | La comunicación escrita alcanzó a docentes, compañeros y a futuros mantenedores: informe, GitHub, tablero de trabajo, mensajes de *commit* y criterios de aceptación en lenguaje verificable. Queda trazable la relación entre diseño, historias de usuario, código y despliegue, lo que mejora la comprensión del avance y reduce ambigüedad en sprints posteriores. |
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th>Criterio específico</th>
+    <th colspan="2">Acciones realizadas</th>
+    <th>Conclusiones</th>
+  </tr>
 
----
+  <tr>
+    <td rowspan="5">Comunica oralmente con efectividad a diferentes rangos de audiencia.</td>
+    <td rowspan="5">AV1</td>
+    <td><b>Fernandez Garfias, Alexander Piero</b><br><br>Participé activamente en la sustentación de la Landing Page, explicando la coherencia entre el diseño en Figma y la implementación visual. Además, apoyé constantemente en la elaboración y mejora del documento del proyecto.</td>
+    <td rowspan="5">El equipo mantuvo comunicación oral clara con usuarios, compañeros y docente, validando prioridades y criterios compartidos antes de integrar y desplegar.</td>
+  </tr>
+  <tr>
+    <td><b>Alva Abanto, Luis Andrés</b><br><br>Realicé entrevistas y coordiné criterios de aceptación y dudas de integración.</td>
+  </tr>
+  <tr>
+    <td><b>Toro Turpo, Ronal</b><br><br>Revisé el comportamiento de navegación y flujo entre secciones en reuniones de alineación.</td>
+  </tr>
+  <tr>
+    <td><b>Montalvo Vásquez, Bruno Rodrigo</b><br><br>Participé en discusiones sobre estructura de secciones y criterios de prueba.</td>
+  </tr>
+  <tr>
+    <td><b>Becerra Durand, Sebastian Uriel</b><br><br>Expuse hallazgos de pruebas rápidas de UI y enlaces durante revisiones del sprint.</td>
+  </tr>
+
+  <tr>
+    <td rowspan="5">Comunica por escrito con efectividad a diferentes rangos de audiencia.</td>
+    <td rowspan="5">TB1</td>
+    <td><b>Fernandez Garfias, Alexander Piero</b><br><br>Participé en el desarrollo del frontend y apoyé de manera constante en la elaboración, corrección y organización del Project Report, además de documentar avances relacionados con la Landing Page y estructura visual del sistema.</td>
+    <td rowspan="5">La comunicación escrita permitió mantener trazabilidad entre diseño, historias de usuario, código y despliegue, reduciendo ambigüedad para el equipo.</td>
+  </tr>
+  <tr>
+    <td><b>Alva Abanto, Luis Andrés</b><br><br>Redacté historias de usuario, technical stories y análisis de entrevistas.</td>
+  </tr>
+  <tr>
+    <td><b>Toro Turpo, Ronal</b><br><br>Registré checklists y notas de integración en Trello y GitHub.</td>
+  </tr>
+  <tr>
+    <td><b>Montalvo Vásquez, Bruno Rodrigo</b><br><br>Mejoré textos y documentación de escenarios BDD.</td>
+  </tr>
+  <tr>
+    <td><b>Becerra Durand, Sebastian Uriel</b><br><br>Registré observaciones de pruebas y acuerdos de calidad antes del merge final.</td>
+  </tr>
+</table>
+
 
 # Capítulo I: Introducción
 
@@ -293,23 +329,25 @@ TechWatch busca aprovechar la creciente adopción de dispositivos inteligentes e
 - Los usuarios prefieren visualizar métricas mediante gráficos y dashboards interactivos.
 - Los usuarios consideran importante optimizar el consumo energético para reducir gastos.
 - Los usuarios valoran soluciones fáciles de usar sin requerir conocimientos técnicos avanzados.
-  
+ 
+ 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 
 #### Hypothesis 1
-Creemos que implementar un dashboard centralizado de monitoreo permitirá a propietarios y arrendatarios visualizar mejor el comportamiento de sus dispositivos domésticos, logrando una mayor percepción de control sobre su hogar. Sabremos que esto es cierto cuando al menos el 70% de usuarios entrevistados indique que la plataforma mejora su visibilidad del consumo y estado de sus dispositivos.
+Creemos que implementar un dashboard centralizado de monitoreo permitirá a los usuarios visualizar y comprender mejor el comportamiento de sus dispositivos inteligentes, aumentando la percepción de control y gestión eficiente del hogar. Sabremos que esto es cierto cuando al menos el 70% de usuarios entrevistados afirme que la plataforma mejora significativamente la visibilidad del consumo y estado de sus dispositivos.
 
 #### Hypothesis 2
-Creemos que ofrecer acceso a métricas de consumo energético en tiempo real ayudará a los usuarios a identificar patrones de uso ineficiente y fomentar decisiones de ahorro energético. Sabremos que esto es cierto cuando al menos el 65% de usuarios afirme que la información mostrada les ayuda a comprender mejor su consumo eléctrico.
+Creemos que mostrar métricas de consumo energético en tiempo real ayudará a los usuarios a identificar patrones de uso ineficiente y tomar decisiones orientadas al ahorro energético. Sabremos que esto es cierto cuando al menos el 65% de usuarios indique que la plataforma contribuye a comprender y controlar mejor su consumo eléctrico.
 
 #### Hypothesis 3
-Creemos que priorizar una experiencia optimizada para smartphones incrementará la frecuencia de acceso y uso de la plataforma por parte de los usuarios residenciales. Sabremos que esto es cierto cuando más del 60% de sesiones registradas provenga de dispositivos móviles.
+Creemos que ofrecer una experiencia optimizada para smartphones incrementará la frecuencia de acceso y uso de la plataforma por parte de los usuarios residenciales. Sabremos que esto es cierto cuando más del 60% de sesiones registradas provenga de dispositivos móviles.
 
 #### Hypothesis 4
-Creemos que un modelo freemium con limitación de dispositivos registrados incentivará a los usuarios a probar la plataforma y posteriormente considerar una suscripción premium. Sabremos que esto es cierto cuando al menos el 30% de usuarios gratuitos muestre intención de actualización a un plan de pago durante las entrevistas de validación.
+Creemos que implementar un modelo freemium con funcionalidades limitadas incentivará la adopción inicial de la plataforma y aumentará el interés por planes premium. Sabremos que esto es cierto cuando al menos el 30% de usuarios gratuitos manifieste intención de actualizar su suscripción.
 
 #### Hypothesis 5
-Creemos que incluir alertas y reportes inteligentes sobre consumo energético aumentará el valor percibido de la plataforma para usuarios que buscan optimizar recursos del hogar. Sabremos que esto es cierto cuando dichas funcionalidades sean identificadas como útiles por al menos el 70% de usuarios entrevistados.
+Creemos que incorporar alertas y reportes inteligentes sobre consumo energético aumentará el valor percibido de la plataforma para los usuarios. Sabremos que esto es cierto cuando al menos el 70% de usuarios entrevistados considere útiles estas funcionalidades para optimizar recursos del hogar.
+
 
 #### 1.2.2.4. Lean UX Canvas
 
