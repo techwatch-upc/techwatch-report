@@ -1405,13 +1405,20 @@ El diagrama muestra a TechWatch como sistema central, con el que interactúan do
 
 ### 4.6.3. Software Architecture Container Diagrams
 
-En esta sección se presenta el diagrama de contenedores de TechWatch, correspondiente al segundo nivel del modelo C4. Este diagrama descompone el sistema en sus contenedores principales, mostrando las aplicaciones y servicios que lo conforman, las tecnologías utilizadas en cada uno y la forma en que se comunican entre sí.
+En esta sección se presenta el diagrama de contenedores de TechWatch, elaborado siguiendo el segundo nivel del modelo C4. Este diagrama permite visualizar los principales contenedores que conforman la plataforma, sus responsabilidades, tecnologías utilizadas y relaciones entre ellos.
+
+TechWatch está compuesto por una Landing Page desarrollada en HTML, CSS y JavaScript, una Web Application desarrollada en Angular y TypeScript, una RESTful API desarrollada en Java con Spring Boot y una base de datos PostgreSQL.
+
+La Landing Page presenta la propuesta de valor del producto y redirige a los usuarios hacia la aplicación principal. La Web Application permite registrar inmuebles, gestionar dispositivos inteligentes, visualizar métricas de consumo energético y administrar suscripciones. Esta aplicación consume los servicios expuestos por la RESTful API mediante HTTPS/JSON.
+
+La RESTful API concentra la lógica de negocio relacionada con los Bounded Contexts Device Management, Analytics, Payment, IAM y Profile. Además, se integra con servicios externos como el Authentication Provider para validar el acceso seguro de los usuarios y el Payment Service para procesar pagos y suscripciones premium.
+
+Finalmente, la base de datos PostgreSQL almacena la información persistente del sistema, incluyendo usuarios, perfiles, inmuebles, dispositivos, métricas, reportes, alertas y suscripciones.
 
 ![Software Architecture Container Diagrams ES](./assets/images/chapter-4-6-3-img1.png)
 
 ![Software Architecture Container Diagrams En](./assets/images/chapter-4-6-3-img2.png)
 
-El sistema TechWatch está compuesto por cinco contenedores. La Landing Page es un sitio web estático desarrollado en HTML, CSS y JavaScript que presenta el modelo de negocio y redirige a los usuarios a la aplicación principal mediante calls-to-action. La Web Application es una SPA desarrollada en Angular que permite a los usuarios gestionar su inmueble y dispositivos, y visualizar el dashboard de métricas e insights. La Remote Control App es también una SPA Angular con diseño responsive, orientada al uso desde dispositivos móviles para simular la operación de los dispositivos. Ambas aplicaciones frontend se comunican con el RESTful API desarrollado en Spring Boot con Java, que contiene la lógica de negocio principal y se integra con el Servicio de Pagos para procesar suscripciones y con el Proveedor de Autenticación para validar el acceso de los usuarios. Finalmente, la base de datos PostgreSQL almacena toda la información persistente del sistema.
 
 ### 4.6.4. Software Architecture Components Diagrams
 
