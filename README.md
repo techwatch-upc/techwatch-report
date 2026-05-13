@@ -1795,7 +1795,7 @@ Las tareas se derivan de las *User Stories* de la sección 3.1 cuyo alcance corr
 | — | *Deployment* | T12 | *Deploy* (Railway) + repositorio | *CI/CD* o *deploy* manual desde *Git*; *URL* pública en Railway vinculada a GitHub. | 3 | luis-alva0, sebasdev28 | Done |
 | — | Calidad | T13 | *Smoke tests* y revisión de enlaces | *Checklist* de *footer*, formulario, *CTA* y *toggle* de idioma. | 3 | sebasdev28, TartaroZ | Done |
 
-URL TRELLO: el trello para el sprint bakclog: https://trello.com/invite/b/69eabab8c6d017d12b30ef1a/ATTI0ffb67d3696eb6f7a708ef028730f00eC143C8F8/sprint-backlog-1-techwatch
+Trello :  https://trello.com/invite/b/69eabab8c6d017d12b30ef1a/ATTI0ffb67d3696eb6f7a708ef028730f00eC143C8F8/sprint-backlog-1-techwatch
 
 #### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -1874,7 +1874,7 @@ https://github.com/upc-pre-202610-1asi0729-11896-techwatch
 
 La evidencia de colaboración incluye commits realizados por los integrantes, uso de ramas feature, integración hacia develop y despliegues posteriores hacia la rama main.
 
-![Captura ](assets/images/chapter-5-2-1-8-img1.png)
+![Trello Sprint 1](assets/images/chapter-5-2-1-8-img1.png)
 
 
 ### 5.2.2. Sprint 2
@@ -1912,7 +1912,7 @@ En este Sprint el equipo se organiza en torno a cuatro aspectos principales: Dev
 
 El objetivo principal del Sprint 2 es entregar la primera versión funcional del Frontend Web Application de IntelliHome, cubriendo las funcionalidades core de gestión de hogares, dispositivos y visualización de métricas de consumo energético, integradas con el JSON Server desplegado que actúa como backend simulado.
 
-[screenshot del tablero]
+![Trello Sprint 1](assets/images/chapter-5-2-2-3-img1.png)
 
 URL del tablero: [https://trello.com/b/3Evj4rSv/sprint-backlog-2-techwatch](https://trello.com/b/3Evj4rSv/sprint-backlog-2-techwatch)
 
