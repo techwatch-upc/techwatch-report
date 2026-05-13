@@ -1828,10 +1828,7 @@ Se registró el progreso del *Sprint 1* con *commits* en el repositorio de la *L
 
 Evidencia de ejecución :
 
-![Evidencia 1 - Landing Page](assets/images/5215img.png)
-![Evidencia 2 - Navbar](assets/images/5215img2.png)
-![Evidencia 3 - Footer](assets/images/5215img3.png)
-![Evidencia 4 - Sección principal](assets/images/5215img4.png)
+![Evidencia 1 - Landing Page](assets/images/chapter-5-2-1-5-img1.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -1839,48 +1836,220 @@ Durante el Sprint 1 el equipo se enfocó en la implementación de la Landing Pag
 
 #### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-**Flujo de publicación (Sprint 1):** el **código fuente** y el historial de *commits* viven en **GitHub** ([*Landing-Page*](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page), rama de trabajo `tb01` documentada en 5.2.1.4). El **entorno de ejecución público** se aprovisiona en **Railway**, conectado al repositorio remoto, de modo que al integrar cambios en la rama configurada (por ejemplo, `main` o la rama *build* definida en el *dashboard* de Railway) se dispara un *build* (contenido estático HTML/CSS/JS) y se expone la **URL pública** del servicio.
+Durante el Sprint 1, el código fuente de la Landing Page fue gestionado mediante GitHub utilizando ramas de trabajo asociadas al desarrollo del sprint. El repositorio remoto fue integrado con Railway para automatizar el proceso de build y despliegue continuo de la aplicación.
 
-**Repositorio:** [https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page)
+El flujo de publicación consistió en conectar el repositorio GitHub con Railway, permitiendo que cada integración realizada sobre la rama configurada para despliegue genere automáticamente el proceso de compilación y publicación del proyecto estático desarrollado en HTML, CSS y JavaScript.
 
-**URL pública (Railway — producción):**  
-[https://landing-page-production-8095.up.railway.app](https://landing-page-production-8095.up.railway.app)
+Repositorio GitHub:  
+https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Landing-Page
 
-Desde esa *URL* se verifica un despliegue *live* (cabecera, *hero*, *features*, secciones de *pricing*, contacto, testimonios, *login* y *i18n*, *responsive*), coherente con el alcance de las historias de la *landing* listadas en 3.1 y 5.2.1.3.
+URL pública de despliegue (Railway):  
+https://landing-page-production-8095.up.railway.app
 
-*Evidencia gráfica sugerida: panel de Railway con repositorio enlazado, *build* / *deploy* exitoso, y el sitio abierto en el navegador en la *URL* indicada. Sustituir imágenes al exportar el informe PDF.*
+Desde la URL pública desplegada se verificó el correcto funcionamiento de las principales funcionalidades implementadas durante el Sprint 1, incluyendo navegación responsive, hero section, features, pricing, testimonios, formulario de contacto, autenticación visual e internacionalización (i18n).
+
+La evidencia de despliegue incluye el repositorio conectado en Railway, builds exitosos y la visualización de la Landing Page publicada en producción.
+
 
 ```text
 Flujo: GitHub (código) → Railway (build + hosting) → https://landing-page-production-8095.up.railway.app
 ```
 
-![Captura 1 - Entorno de despliegue (pendiente)](assets/images/5217img1.png)
-![Captura 2 - Sitio en producción (pendiente)](assets/images/5217img2.png)
-![Captura 3 - Landingpage en producción (pendiente)](assets/images/5217img3.png)
+![Captura 1 - Entorno de despliegue](assets/images/chapter-5-2-1-7-img1.png)
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+![Captura 2 - Sitio en producción](assets/images/chapter-5-2-1-7-img2.png)
 
-Durante el Sprint 1, los 5 integrantes trabajaron de forma colaborativa sobre la rama `tb01`, integrando avances a `develop` y posteriormente a `main`.  
-La coordinación se realizó mediante WhatsApp y reuniones por Google Meet, mientras que el seguimiento de tareas y prioridades se gestionó en Trello.
+![Captura 3 - Landingpage en producción](assets/images/chapter-5-2-1-7-img3.png)
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 1, los cinco integrantes del equipo trabajaron de manera colaborativa utilizando GitHub como plataforma principal para control de versiones y gestión del código fuente. El flujo de trabajo se organizó mediante una estrategia basada en GitFlow, utilizando ramas main, develop y feature para mantener un desarrollo ordenado y controlado.
+
+La rama main fue utilizada para almacenar la versión estable del proyecto, mientras que develop funcionó como rama principal de integración. Cada funcionalidad desarrollada durante el sprint fue implementada en ramas feature independientes antes de integrarse progresivamente al flujo principal del proyecto.
+
+La coordinación del equipo se realizó mediante WhatsApp y reuniones virtuales por Google Meet, mientras que la planificación, seguimiento de tareas y control de prioridades se gestionó mediante Trello.
 
 Organización del equipo en GitHub:  
+https://github.com/upc-pre-202610-1asi0729-11896-techwatch
+
+La evidencia de colaboración incluye commits realizados por los integrantes, uso de ramas feature, integración hacia develop y despliegues posteriores hacia la rama main.
+
+![Captura ](assets/images/chapter-5-2-1-8-img1.png)
+
+
+### 5.2.2. Sprint 2
+
+#### 5.2.2.1. Sprint Planning 2
+
+| Sprint # | Sprint 2 |
+|----------|----------|
+| **Sprint Planning Background** | |
+| Date | 2026-04-28 |
+| Time | 08:00 PM |
+| Location | Reunión virtual vía Google Meet |
+| Prepared By | Alva Abanto, Luis Andrés |
+| Attendees (to planning meeting) | Alva Abanto, Luis Andrés / Fernandez Garfias, Alexander Piero / Toro Turpo, Ronal / Montalvo Vásquez, Bruno Rodrigo / Becerra Durand, Sebastian Uriel |
+| Sprint 1 Review Summary | En el Sprint 1 se completó la implementación y despliegue de la primera versión del Landing Page en Railway, cubriendo las secciones principales: hero, features, pricing, about us, testimonios, contacto y navegación responsive con soporte i18n. |
+| Sprint 1 Retrospective Summary | El equipo identificó la necesidad de mejorar la coordinación en la distribución de tareas y establecer criterios de aceptación más claros antes de iniciar el desarrollo de cada feature. Para el Sprint 2 se acuerda trabajar con ramas de feature individuales y hacer revisiones de código antes de integrar. |
+| **Sprint Goal & User Stories** | |
+| Sprint 2 Goal | Our focus is on delivering the core property and device management experience to IntelliHome users. We believe it delivers a functional and intuitive interface for registering homes, managing smart devices and visualizing consumption metrics to home owners and apartment residents. This will be confirmed when users can register a home, add devices and visualize their consumption data in the dashboard without intervention of the development team. |
+| Sprint 2 Velocity | 34 |
+| Sum of Story Points | 34 |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+En este Sprint el equipo se organiza en torno a cuatro aspectos principales: Device Management Feature, que abarca el desarrollo de las vistas y servicios para la gestión de hogares y dispositivos; Dashboard & Analytics Feature, que cubre la visualización de métricas y el historial de consumo; Deployment & Configuration, que gestiona el despliegue del frontend y el JSON Server; y Documentation & Report, que coordina la documentación del sprint en el informe.
+
+| Team Member (Last Name, First Name) | GitHub Username | Device Management Feature | Dashboard & Analytics Feature | Deployment & Configuration | Documentation & Report |
+|-------------------------------------|-----------------|--------------------------|------------------------------|---------------------------|------------------------|
+| Fernandez Garfias, Alexander Piero | Dostoyevsk1 | L | L | C | C |
+| Alva Abanto, Luis Andrés | luis-alva0 | C | C | C | L |
+| Toro Turpo, Ronal | ronaltt-345 | C | L | C | C |
+| Montalvo Vásquez, Bruno Rodrigo | TartaroZ | C | C | L | C |
+| Becerra Durand, Sebastian Uriel | sebasdev28 | C | C | C | C |
+
+#### 5.2.2.3. Sprint Backlog 2
+
+El objetivo principal del Sprint 2 es entregar la primera versión funcional del Frontend Web Application de IntelliHome, cubriendo las funcionalidades core de gestión de hogares, dispositivos y visualización de métricas de consumo energético, integradas con el JSON Server desplegado que actúa como backend simulado.
+
+[screenshot del tablero]
+
+URL del tablero: [https://trello.com/b/3Evj4rSv/sprint-backlog-2-techwatch](https://trello.com/b/3Evj4rSv/sprint-backlog-2-techwatch)
+
+| Sprint # | Sprint 2 | | | | | | |
+|----------|----------|-|-|-|-|-|-|
+| **User Story** | | **Work-Item / Task** | | | | | |
+| Id | Title | Id | Title | Description | Estimation (Hours) | Assigned To | Status |
+| US15 | Registrar múltiples inmuebles | T01 | Implementar vista de registro de hogar | Crear el componente HomeView con formulario de registro conectado al endpoint /homes del JSON Server | 4 | Fernandez Garfias, Alexander Piero | Done |
+| US15 | Registrar múltiples inmuebles | T02 | Implementar servicio de hogares | Crear HomeService que consuma los endpoints /homes del JSON Server para CRUD de hogares | 3 | Fernandez Garfias, Alexander Piero | Done |
+| US16 | Filtrar datos por inmueble | T03 | Implementar filtro de hogar en dashboard | Agregar selector de hogar activo que filtre dispositivos y consumos mostrados en las vistas | 3 | Toro Turpo, Ronal | Done |
+| US17 | Vincular nuevo dispositivo | T04 | Implementar vista de gestión de dispositivos | Crear el componente DeviceView con formulario de vinculación de dispositivo por hogar conectado al endpoint /devices del JSON Server | 4 | Fernandez Garfias, Alexander Piero | Done |
+| US17 | Vincular nuevo dispositivo | T05 | Implementar servicio de dispositivos | Crear DeviceService que consuma los endpoints /devices del JSON Server para CRUD de dispositivos, incluyendo atributos type, powerWatts y status | 3 | Fernandez Garfias, Alexander Piero | Done |
+| US18 | Desvincular dispositivo | T06 | Implementar función de eliminación de dispositivo | Agregar opción de desvincular dispositivo con confirmación en DeviceView, consumiendo DELETE /devices/:id | 2 | Toro Turpo, Ronal | Done |
+| US19 | Ver estado de conexión | T07 | Implementar indicador de estado de dispositivo | Mostrar indicador visual del estado on/off de cada dispositivo en DeviceView, reflejando el campo status del JSON Server | 2 | Montalvo Vásquez, Bruno Rodrigo | Done |
+| US20 | Visualizar consumo mensual | T08 | Implementar vista de dashboard con métricas | Crear DashboardView con gráficos de consumo mensual por dispositivo calculados a partir de los registros del endpoint /consumptions del JSON Server | 5 | Fernandez Garfias, Alexander Piero | Done |
+| US20 | Visualizar consumo mensual | T09 | Implementar servicio de consumos | Crear ConsumptionService que consuma el endpoint /consumptions del JSON Server para obtener registros de kwh por dispositivo y fecha | 3 | Toro Turpo, Ronal | Done |
+| US05 | Historial de consumo | T10 | Implementar vista de historial de consumo | Crear ReportsView con tabla de historial de consumo filtrable por período, consumiendo /consumptions con filtro por deviceId y fecha | 3 | Montalvo Vásquez, Bruno Rodrigo | Done |
+| | | T11 | Configurar y desplegar JSON Server | Configurar JSON Server con el db.json del proyecto e incluir recursos users, homes, devices y consumptions, y desplegarlo en la plataforma indicada | 2 | Montalvo Vásquez, Bruno Rodrigo | Done |
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+Se registró el progreso del Sprint 2 con commits en el repositorio del Frontend Web Application (rama **`develop`**). Los mensajes siguen Conventional Commits (`feat`, `fix`, `chore`).
+
+**Repositorio en GitHub:** [upc-pre-202610-1asi0729-11896-techwatch/Frontend-Tech](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Frontend-Tech) · rama de trabajo: **`develop`**. Historial en [commits/develop](https://github.com/upc-pre-202610-1asi0729-11896-techwatch/Frontend-Tech/commits/develop).
+
+| Repository | Branch | Commit Id | Commit Message | Fecha |
+|------------|--------|-----------|----------------|-------|
+| techwatch/Frontend-Tech | develop | 5f42686 | chore: clear project | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | dcb2038 | feat: add dependencies for material and project structure | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 2fla3a8 | feat: add base for projects | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 7755234 | feat: add base api | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 9257963 | feat: add base toolbar component | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 6b85bdb | feat: add base for home | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 58c8abc | feat: add environments | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | 15e186b | feat: add structure project | 10/05/2026 |
+| techwatch/Frontend-Tech | develop | b49767f | feat: update imports | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 3260ac9 | fix: update routes and toolbar components | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 2a19b52 | feat: create fake api | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 7e8204b | fix: update asembler for home entity mapping | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | bb77fb0 | feat: add home form | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | edceeb1 | feat: add device entity model | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 768963c | feat: add interfaces for device | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 7e46289 | feat: add assembler for devices | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | da2683f | feat: add entity for devices | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | d4535a2 | feat: add endpoint for devices API | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 18ced2c | fix: update api home list and form | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | 20b8df2 | feat: add device list component | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | eec329b | feat: add api for devices | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | df52bd3 | feat: add routes for devices | 11/05/2026 |
+| techwatch/Frontend-Tech | develop | d4b52ef | Merge pull request #1 | 11/05/2026 |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Durante el Sprint 2 se implementó la primera versión funcional del Frontend Web Application de TechWatch. La aplicación permite registrar inmuebles de tipo apartment o house, administrar espacios dentro del hogar y gestionar dispositivos inteligentes clasificados por categorías como climate, lighting, entertainment y kitchen.
+
+Asimismo, los usuarios pueden visualizar información relacionada con el estado de los dispositivos, potencia energética en watts y métricas de consumo energético mediante dashboards y tablas interactivas. La aplicación consume información desde un JSON Server desplegado para simular persistencia y comunicación con servicios backend.
+
+La interfaz fue desarrollada utilizando Angular y TypeScript, manteniendo una experiencia responsive y consistente con los diseños, wireframes y mockups previamente definidos en Figma. Las funcionalidades implementadas durante este sprint se alinean con el objetivo principal de TechWatch: permitir el monitoreo, control y análisis energético de dispositivos inteligentes dentro del hogar.
+
+![Frontend Captura](assets/images/chapter-5-2-2-5-img1.png)
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 2 el equipo utilizó un JSON Server como backend simulado para alimentar el Frontend Web Application. El JSON Server expone los siguientes endpoints a partir del archivo db.json del proyecto:
+
+| Endpoint | Método HTTP | Descripción | Ejemplo de Response |
+|----------|-------------|-------------|---------------------|
+| /users | GET | Obtiene la lista de usuarios registrados | `[{ "id": 1, "name": "Carlos Pérez", "email": "carlos@techwatch.com", "plan": "free" }]` |
+| /users/:id | GET | Obtiene un usuario específico | `{ "id": 1, "name": "Carlos Pérez", "plan": "free" }` |
+| /homes | GET | Obtiene la lista de hogares | `[{ "id": 1, "name": "Departamento Miraflores", "type": "apartment", "userId": 1 }]` |
+| /homes | POST | Registra un nuevo hogar | Body: `{ "name": "...", "type": "...", "userId": 1 }` |
+| /homes/:id | PUT | Actualiza un hogar existente | Body: `{ "name": "...", "type": "..." }` |
+| /homes/:id | DELETE | Elimina un hogar | Devuelve `{}` |
+| /devices | GET | Obtiene la lista de dispositivos | `[{ "id": 1, "name": "Aire acondicionado sala", "type": "climate", "powerWatts": 1200, "status": "on", "homeId": 1 }]` |
+| /devices | POST | Registra un nuevo dispositivo | Body: `{ "name": "...", "type": "...", "powerWatts": 0, "status": "off", "homeId": 1 }` |
+| /devices/:id | PUT | Actualiza el estado de un dispositivo | Body: `{ "status": "on" }` |
+| /devices/:id | DELETE | Elimina un dispositivo | Devuelve `{}` |
+| /consumptions | GET | Obtiene los registros de consumo energético | `[{ "id": 1, "deviceId": 1, "kwh": 2.4, "date": "2026-05-01" }]` |
+| /consumptions | POST | Registra un nuevo dato de consumo | Body: `{ "deviceId": 1, "kwh": 2.4, "date": "2026-05-01" }` |
+
+**URL del JSON Server desplegado:** [mock-api-lc-json-production.up.railway.app](mock-api-lc-json-production.up.railway.app)
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 2 se realizó el despliegue de dos productos: el Frontend Web Application de IntelliHome y el JSON Server que actúa como backend simulado.
+
+**Frontend Web Application:**
+El frontend fue desarrollado con Angular y desplegado en [plataforma de despliegue]. El flujo de despliegue es el siguiente:
+
+```
+GitHub (código) → [Plataforma] (build + hosting) → [URL pública del frontend]
+```
+
+**URL pública del Frontend:** [Deploy Frontend](https://github.com/)
+
+![Frontend Deploy](assets/images/chapter-5-2-2-7-img1.png)
+
+
+**JSON Server:**
+
+El JSON Server fue desplegado en Railway y expone los endpoints de users, homes, devices y consumptions que alimentan el frontend con datos de prueba.
+
+**URL pública del JSON Server:** [Deploy Json Server](mock-api-lc-json-production.up.railway.app)
+
+![JSON Server](assets/images/chapter-5-2-2-7-img2.png)
+
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 2 los 5 integrantes colaboraron en el desarrollo del Frontend Web Application, trabajando sobre ramas de feature individuales e integrando avances mediante pull requests hacia la rama de trabajo del sprint. La coordinación se realizó mediante WhatsApp y reuniones por Google Meet. El seguimiento de tareas se gestionó en [herramienta indicada].
+
+Organización del equipo en GitHub:
+
 [https://github.com/upc-pre-202610-1asi0729-11896-techwatch](https://github.com/upc-pre-202610-1asi0729-11896-techwatch)
 
-![Captura ](assets/images/5218img1.png)
+![JSON Server](assets/images/chapter-5-2-2-8-img1.png)
+
+![JSON Server](assets/images/chapter-5-2-2-8-img2.png)
+
+![JSON Server](assets/images/chapter-5-2-2-8-img3.png)
+
+
 ---
 
-# Conclusiones
+
 
 ## Conclusiones y recomendaciones
 
-El proyecto TechWatch permitió identificar y abordar la falta de una plataforma centralizada para la gestión de dispositivos en hogares inteligentes, evidenciando una necesidad real en el mercado. A través de metodologías como Lean UX, entrevistas y análisis de usuarios, se validó que los usuarios buscan soluciones accesibles, visuales y enfocadas en la toma de decisiones.
+El proyecto TechWatch permitió identificar y abordar la necesidad de contar con una plataforma centralizada orientada al monitoreo, control y análisis de dispositivos inteligentes dentro del hogar. A través de metodologías como Lean UX, entrevistas y análisis de segmentos objetivo, se evidenció que los usuarios buscan soluciones accesibles, intuitivas y enfocadas en optimizar el consumo energético mediante información clara y visual.
 
-Asimismo, el desarrollo del diseño, arquitectura y prototipos demostró la viabilidad técnica de la propuesta. En este sentido, TechWatch se posiciona como una solución innovadora que integra monitoreo, análisis de datos y experiencia de usuario para optimizar la gestión del hogar inteligente.
+El desarrollo de la arquitectura, diseño de interfaces, prototipos y modelos basados en Domain-Driven Design permitió validar la viabilidad técnica y funcional de la propuesta. Asimismo, la definición de Bounded Contexts como Device Management, Analytics, Payment, IAM y Profile facilitó una mejor organización del dominio y de las responsabilidades del sistema.
 
-Se recomienda continuar con la validación del producto mediante pruebas con usuarios reales, así como ampliar la integración con dispositivos IoT para mejorar su funcionalidad. Además, es importante optimizar la arquitectura para asegurar escalabilidad y fortalecer el modelo de negocio, evaluando la aceptación del esquema freemium.
-Finalmente, se sugiere incorporar funcionalidades avanzadas como alertas inteligentes y recomendaciones automatizadas, que incrementen el valor de la plataforma.
+TechWatch se posiciona como una solución orientada a Smart Homes que integra monitoreo de dispositivos, dashboards analíticos y control inteligente del hogar, permitiendo a los usuarios comprender el comportamiento energético de sus dispositivos y tomar decisiones informadas para optimizar recursos.
 
----
+Se recomienda continuar con la validación del producto mediante pruebas con usuarios reales y ampliar progresivamente la integración con dispositivos IoT para incrementar las capacidades de monitoreo y automatización. Además, resulta importante fortalecer la arquitectura del sistema para garantizar escalabilidad, mantenibilidad y seguridad conforme aumente el número de usuarios y dispositivos conectados.
+
+Finalmente, se recomienda incorporar funcionalidades avanzadas como alertas inteligentes, automatización de acciones, recomendaciones de ahorro energético y análisis predictivo, con el objetivo de incrementar el valor de la plataforma y mejorar la experiencia de usuario dentro del ecosistema de hogares inteligentes.---
 
 # Bibliografía
 
