@@ -1175,8 +1175,7 @@ El diseño de la Landing Page de TechWatch fue desarrollado bajo un enfoque mini
 
 **Hero Section**: La sección principal presentará una imagen representativa de Smart Homes y monitoreo inteligente junto con un mensaje que refleje la propuesta de valor de TechWatch, destacando el control, análisis y optimización energética del hogar mediante dashboards interactivos y dispositivos conectados.
 
-
-  ![Wireframe 1](./assets/images/chapter-4-3-1-img1.png)
+![Wireframe 1](./assets/images/chapter-4-3-1-img1.png)
 
 **Features Section**: La sección mostrará las principales funcionalidades de la plataforma mediante tarjetas organizadas visualmente, destacando monitoreo de dispositivos, dashboards analíticos, control remoto, alertas inteligentes y reportes de consumo energético.
 
@@ -1201,25 +1200,31 @@ El diseño de la Landing Page de TechWatch fue desarrollado bajo un enfoque mini
 ### 4.3.2. Landing Page Mock-up
 
 ### Mock-ups finales
-![Mockup 1](./assets/images/432img1.png)
 
-![Mockup 2](./assets/images/432img2.png)
+**Mockup - Hero Section**: la sección presenta una imagen representativa de Smart Homes junto con dashboards interactivos y dispositivos inteligentes. Además, incluye un mensaje principal orientado a destacar la propuesta de valor de TechWatch relacionada con monitoreo, control y optimización energética del hogar.
 
-![Mockup 3](./assets/images/432img3.png)
+![Mockup 1](./assets/images/chapter-4-3-2-img1.png)
 
-![Mockup 4](./assets/images/432img4.png)
+**Mockup - Features Section**: la sección muestra las principales funcionalidades de la plataforma mediante tarjetas visuales minimalistas, destacando monitoreo de dispositivos, dashboards analíticos, control remoto, alertas inteligentes y reportes de consumo energético.
 
-![Mockup 5](./assets/images/432img5.png)
+![Mockup 2](./assets/images/chapter-4-3-2-img2.png)
 
-![Mockup 6](./assets/images/432img6.png)
+**Mockup - About Us Section**: la sección presenta información sobre la startup TechWatch, incluyendo misión, visión y propósito de la plataforma, acompañada de elementos visuales relacionados con tecnología, IoT y hogares inteligentes.
 
+![Mockup 3](./assets/images/chapter-4-3-2-img3.png)
 
-### Características
+**Mockup - Pricing Section**: la sección presenta una comparación visual de planes de suscripción gratuitos y premium mediante tarjetas organizadas, permitiendo identificar fácilmente las funcionalidades disponibles en cada plan.
 
-- Uso de gradientes modernos
-- Cards con sombras (elevación visual)
-- Tipografía clara (Inter)
-- Botones con llamados a la acción (CTA)
+![Mockup 4](./assets/images/chapter-4-3-2-img4.png)
+
+**Mockup - Testimonials Section**: la sección incluye comentarios y opiniones de usuarios sobre la experiencia con la plataforma, resaltando beneficios relacionados con monitoreo, ahorro energético y facilidad de uso.
+
+![Mockup 5](./assets/images/chapter-4-3-2-img5.png)
+
+**Mockup - Contact Section**: la sección presenta un formulario accesible e intuitivo que permite a los usuarios enviar consultas, solicitar información o comunicarse con TechWatch para recibir soporte relacionado con la plataforma.
+
+![Mockup 6](./assets/images/chapter-4-3-2-img6.png)
+
 
 ## 4.4. Web Applications UX/UI Design
 
@@ -1227,40 +1232,129 @@ Esta sección presenta la propuesta visual y de interacción de la aplicación w
 
 ### 4.4.1. Web Applications Wireframes
 
-![Wireframe 1](./assets/images/441img1.png)
+**Wireframes de Inicio de Sesión y Registro:**  
+En estos wireframes se presentan las vistas de autenticación de TechWatch, donde los usuarios podrán iniciar sesión o registrarse dentro de la plataforma mediante inputs relacionados con correo electrónico, contraseña e información básica del perfil. Asimismo, las vistas mantienen una interfaz minimalista y moderna alineada con la identidad visual de la plataforma.
 
-![Wireframe 2](./assets/images/441img2.png)
+![Wireframe 1](./assets/images/chapter-4-4-1-img1.png)
 
-![Wireframe 3](./assets/images/441img3.png)
+**Wireframes de Registro de Casa:**  
+En estos wireframes se presentan las vistas destinadas al registro de propiedades dentro de la plataforma. Los usuarios podrán registrar información relacionada con su hogar, como nombre del inmueble, tipo de propiedad y espacios asociados, permitiendo organizar posteriormente los dispositivos inteligentes dentro del sistema.
+
+![Wireframe 2](./assets/images/chapter-4-4-1-img2.png)
+
+**Wireframes de Agregar Dispositivo:**  
+En estos wireframes se muestran las vistas utilizadas para registrar nuevos dispositivos inteligentes dentro de un espacio del hogar. Los formularios permitirán ingresar información relacionada con el nombre del dispositivo, categoría, estado y consumo energético estimado.
+
+![Wireframe 3](./assets/images/chapter-4-4-1-img3.png)
+
+**Wireframes de Mis Dispositivos:**  
+En estos wireframes se presentan las vistas donde los usuarios podrán visualizar, monitorear y controlar los dispositivos registrados dentro de su hogar inteligente. La interfaz incluirá tarjetas organizadas, estados de dispositivos y accesos rápidos a funcionalidades de monitoreo y control remoto.
+
+![Wireframe 4](./assets/images/chapter-4-4-1-img4.png)
+
+**Wireframes de Consumo Energético:**  
+En estos wireframes se presentan dashboards y gráficos orientados a visualizar métricas relacionadas con consumo energético, uso de dispositivos y alertas inteligentes. La interfaz permitirá interpretar fácilmente información analítica mediante gráficos, tarjetas y reportes visuales.
+
+![Wireframe 5](./assets/images/chapter-4-4-1-img5.png)
 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 
-![Wireframe 1](./assets/images/442img1.png)
+Los wireflow diagrams de TechWatch representan el flujo de navegación e interacción dentro de la Web Application, mostrando cómo los usuarios recorrerán las distintas funcionalidades relacionadas con autenticación, gestión de dispositivos, monitoreo y análisis energético. Estos diagramas permiten visualizar de manera clara la relación entre pantallas, acciones y procesos principales del sistema, facilitando la comprensión de la experiencia de usuario y la estructura funcional de la plataforma.
+
+**Wireflow de Inicio de Sesión y Registro:**  
+Como usuario, quiero registrarme e iniciar sesión en la plataforma para acceder a las funcionalidades de monitoreo y control inteligente de mi hogar.
+
+![Wireframe 1](./assets/images/chapter-4-4-2-img1.png)
+
+**Wireflow de Registro de Casa:**  
+Como usuario, quiero registrar mi inmueble y sus espacios para organizar correctamente mis dispositivos inteligentes dentro de la plataforma.
+
+![Wireframe 2](./assets/images/chapter-4-4-2-img2.png)
+
+**Wireflow de Agregar Dispositivo:**  
+Como usuario, quiero agregar dispositivos inteligentes a mi hogar para monitorear y controlar su comportamiento desde una sola plataforma.
+
+![Wireframe 3](./assets/images/chapter-4-4-2-img3.png)
+
+**Wireflow de Mis Dispositivos:**  
+Como usuario, quiero visualizar y controlar mis dispositivos registrados para gestionar de manera eficiente mi hogar inteligente.
+
+![Wireframe 4](./assets/images/chapter-4-4-2-img4.png)
+
+**Wireflow de Consumo Energético:**  
+Como usuario, quiero visualizar métricas y reportes de consumo energético para comprender el comportamiento de mis dispositivos y optimizar el uso de energía
+
+![Wireframe 5](./assets/images/chapter-4-4-2-img5.png)
+
 
 
 ### 4.4.3. Web Applications Mock-ups
 
-![Wireframe 1](./assets/images/443img1.png)
+**Mockups de Inicio de Sesión y Registro:**  
+En estos mockups se presentan las vistas finales de autenticación de TechWatch, utilizando una interfaz moderna y minimalista basada en colores neutros, tipografía clara y formularios organizados visualmente para facilitar el acceso y registro de usuarios dentro de la plataforma.
 
-![Wireframe 2](./assets/images/443img2.png)
+![Mockup 1](./assets/images/chapter-4-4-3-img1.png)
 
-![Wireframe 3](./assets/images/443img3.png)
+**Mockups de Registro de Casa:**  
+En estos mockups se muestran las vistas finales destinadas al registro de propiedades y espacios dentro de la plataforma. La interfaz utiliza formularios limpios y componentes organizados para mejorar la experiencia de configuración inicial del hogar inteligente.
 
-![Wireframe 4](./assets/images/443img4.png)
+![Mockup 2](./assets/images/chapter-4-4-3-img2.png)
+
+**Mockups de Agregar Dispositivo:**  
+En estos mockups se presentan las vistas finales utilizadas para registrar dispositivos inteligentes dentro del hogar. Los formularios y componentes visuales fueron diseñados para mantener simplicidad, claridad visual y facilidad de interacción.
+
+![Mockup 3](./assets/images/chapter-4-4-3-img3.png)
+
+**Mockups de Mis Dispositivos:**  
+En estos mockups se presentan dashboards y tarjetas visuales orientadas a visualizar, monitorear y controlar dispositivos inteligentes registrados dentro de la plataforma mediante una experiencia moderna y organizada.
+
+![Mockup 4](./assets/images/chapter-4-4-3-img4.png)
+
+**Mockups de Consumo Energético:**  
+En estos mockups se muestran dashboards analíticos con gráficos, métricas y reportes relacionados con consumo energético y comportamiento de dispositivos inteligentes. La interfaz prioriza claridad visual y jerarquía de información para facilitar la interpretación de datos.
+
+![Mockup 5](./assets/images/chapter-4-4-3-img5.png)
+
+
 
 ### 4.4.4. Web Applications User Flow Diagrams
 
-![Wireframe 1](./assets/images/444img1.png)
+Los User Flow Diagrams de TechWatch representan el recorrido que realizan los usuarios dentro de la plataforma para completar distintas tareas relacionadas con autenticación, gestión de dispositivos, monitoreo y análisis energético. Estos diagramas permiten visualizar de manera clara las decisiones, acciones y pantallas involucradas durante la interacción con la Web Application, facilitando la comprensión de la experiencia de usuario y los principales flujos funcionales del sistema.
+
+**User Flow de Inicio de Sesión y Registro:**  
+Como usuario, quiero registrarme e iniciar sesión en la plataforma para acceder a las funcionalidades de monitoreo y control inteligente del hogar.
+
+![User Flow 1](./assets/images/chapter-4-4-4-img1.png)
+
+**User Flow de Registro de Casa:**  
+Como usuario, quiero registrar mi inmueble y sus espacios para organizar correctamente los dispositivos inteligentes dentro de la plataforma.
+
+![User Flow 2](./assets/images/chapter-4-4-4-img2.png)
+
+**User Flow de Agregar Dispositivo:**  
+Como usuario, quiero registrar nuevos dispositivos inteligentes para monitorear y controlar su comportamiento desde una sola plataforma.
+
+![User Flow 3](./assets/images/chapter-4-4-4-img3.png)
+
+**User Flow de Mis Dispositivos:**  
+Como usuario, quiero visualizar y controlar mis dispositivos registrados para gestionar eficientemente mi hogar inteligente.
+
+![User Flow 4](./assets/images/chapter-4-4-4-img4.png)
+
+**User Flow de Consumo Energético:**  
+Como usuario, quiero visualizar métricas y reportes de consumo energético para comprender el comportamiento de mis dispositivos y optimizar el uso de energía.
+
+![User Flow 5](./assets/images/chapter-4-4-4-img5.png)
+
 
 ## 4.5. Web Applications Prototyping
 
-The interactive prototype of the web application was designed using Figma.
-It allows visualization of the user interface, navigation flow, and key features of the system.
-
+A partir de los wireframes, wireflows y user flows definidos en las secciones anteriores, se desarrolló el prototipo funcional de la Web Application de TechWatch utilizando Figma. El prototipo permite visualizar la interacción entre las distintas pantallas relacionadas con autenticación, gestión de dispositivos, monitoreo y análisis energético, manteniendo una interfaz moderna, minimalista y alineada con la identidad visual de la plataforma.
 Figma Prototype:
 
-https://www.figma.com/design/msBrKegzk619dYQHvns0Ty/Alexander-Fernandez-s-team-library?node-id=0-1&t=R28mF3mlxdLkhJ0k-1
+[Prototipo Web Application - TechWatch](https://www.figma.com/)
+
 
 ## 4.6. Domain-Driven Software Architecture
 
