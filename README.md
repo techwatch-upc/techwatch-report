@@ -2045,6 +2045,8 @@ Organización del equipo en GitHub:
 
 ![commits](assets/images/chapter-5-2-2-8-img3.png)
 
+![commits](assets/images/chapter-5-2-2-8-img4.png)
+
 
 ---
 
